@@ -3,7 +3,9 @@
 *  @description: A+ Test Prep & Tutoring 2014 SASS  compilation of former CSS Files
 * @author: Anson Han, The Crafty Canvas (www.thecraftycanvas.com)
 */
-/** HEADER */
+/*
+* HEADER 
+*/
 #branding {
   padding-bottom: 10px;
   position: relative;
@@ -50,19 +52,14 @@
     height: 173px; }
 
 /* #branding */
+/* END OF HEADER */
 /*
-
-#site-description {
-	color: #7a7a7a;
-	font-size: 14px;
-	margin: 0 270px 3.65625em 0;
-}
+* DESKTOP MAIN MENU
 */
-/* Desktop Main Menu */
 #access {
   position: relative; }
 
-/** MENU */
+/* PRIMARY MENU LEVEL */
 .menu-main-menu-container {
   overflow: hidden;
   width: 963px;
@@ -82,87 +79,77 @@
   font-size: 18px;
   font-weight: 400;
   color: #FFFFFF; }
+  #menu-main-menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height: normal; }
+  #menu-main-menu li {
+    float: left;
+    padding: 0px 0px 0px 20px;
+    white-space: nowrap;
+    /* conceal submenus on initial load, dropotron will automatically extract the submenus into its own div */ }
+    #menu-main-menu li span {
+      display: inline-block;
+      height: 60px; }
+    #menu-main-menu li ul {
+      display: none;
+      visibility: hidden; }
+  #menu-main-menu a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF; }
+  #menu-main-menu a:hover {
+    text-decoration: underline; }
+  #menu-main-menu .arrow {
+    background: url(../images/menu-icon-arrow-bg.png) no-repeat right 30px;
+    padding-right: 20px;
+    margin-right: 20px; }
 
-#menu-main-menu ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  line-height: normal; }
-
-#menu-main-menu li {
-  float: left;
-  padding: 0px 0px 0px 20px;
-  white-space: nowrap; }
-
-#menu-main-menu a {
-  display: block;
-  float: left;
-  text-decoration: none;
-  color: #FFFFFF; }
-
-#menu-main-menu a:hover {
-  text-decoration: underline; }
-
-#menu-main-menu li span {
-  display: inline-block;
-  height: 60px; }
-
-#menu-main-menu .arrow {
-  background: url(../images/menu-icon-arrow-bg.png) no-repeat right 30px;
-  padding-right: 20px;
-  margin-right: 20px; }
-
-/** DROPOTRON */
+/* #menu-main-menu */
+/** DROPOTRON submenu (main menu dropdown & flyouts) */
 ul.dropotron {
   margin: 0 0 1.625em 0; }
 
 .dropotron {
   max-width: 350px;
   padding: 0 0 0 0;
-  background: #990000;
+  background: #cb2027;
   letter-spacing: -1px;
   list-style: none;
   font-size: 14px;
   font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
-  color: #FFFFFF; }
-
-.dropotron .dropotron {
-  background: #cc0000;
-  margin-top: 12px;
-  width: 200px; }
-
-.dropotron a {
-  text-decoration: none;
-  color: #FFFFFF; }
-
-.dropotron li {
-  height: auto;
-  padding: 0px 10px;
-  line-height: 40px;
   color: #FFFFFF;
-  white-space: normal !important; }
+  border-radius: 5px; }
+  .dropotron li {
+    height: auto;
+    padding: 0px 8px;
+    line-height: 40px;
+    color: #FFFFFF;
+    white-space: normal !important;
+    border: 1px solid #cb2027;
+    border-radius: 5px; }
+  .dropotron li:hover {
+    background: #ffffff;
+    border: 1px solid #cb2027; }
+  .dropotron li:hover > a, .dropotron li:hover > span {
+    color: #cb2027; }
+  .dropotron .dropotron {
+    margin-top: 12px;
+    width: 200px; }
+  .dropotron a {
+    text-decoration: none;
+    color: #FFFFFF; }
+  .dropotron span {
+    display: block;
+    margin-right: -1px; }
+  .dropotron .first {
+    border-top: none; }
 
-.dropotron .dropotron li {
-  height: auto;
-  padding: 0px 10px;
-  line-height: 40px;
-  color: #FFFFFF;
-  white-space: normal !important; }
-
-.dropotron li:hover {
-  background: #902B2E; }
-
-.dropotron li:hover > a, .dropotron li:hover > span {
-  color: #FFFFFF; }
-
-.dropotron span {
-  display: block;
-  margin-right: -1px; }
-
-.dropotron .first {
-  border-top: none; }
-
+/* .dropotron */
+/* PHONE NUMBER */
 .callout-phone-number {
   position: absolute;
   right: 0;
@@ -180,4 +167,177 @@ ul.dropotron {
     color: #2f3938; }
 
 /* .callout-phone-number */
+/* END OF DESKTOP MAIN MENU */
+/* 
+* FOOTER
+*/
+#colophon {
+  clear: both; }
+
+#footer p {
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+  text-align: center;
+  color: #444444; }
+
+#footer-content-bg {
+  overflow: hidden;
+  background: url("../images-aplus/background-footer.png") repeat;
+  /* #footer-content-bgtop */ }
+  #footer-content-bg #footer-content-bgtop {
+    overflow: hidden;
+    padding: 25px 0px 40px 0px;
+    /* #footer-content */ }
+    #footer-content-bg #footer-content-bgtop #footer-content {
+      width: 960px;
+      margin: 0px auto;
+      color: #AFAFAF;
+      /* #supplementary */ }
+      #footer-content-bg #footer-content-bgtop #footer-content .widget-title {
+        font-size: 24px;
+        color: #FFFFFF; }
+      #footer-content-bg #footer-content-bgtop #footer-content #supplementary.three .widget {
+        margin: 0; }
+      #footer-content-bg #footer-content-bgtop #footer-content #supplementary.three .textwidget {
+        display: inline-block; }
+      #footer-content-bg #footer-content-bgtop #footer-content #supplementary.three .widget-area {
+        float: right;
+        width: 30.85%; }
+      #footer-content-bg #footer-content-bgtop #footer-content #supplementary.three .widget-area + .widget-area + .widget-area {
+        margin-right: 0; }
+      #footer-content-bg #footer-content-bgtop #footer-content #supplementary {
+        /* first */
+        /* #second */
+        /* #third */ }
+        #footer-content-bg #footer-content-bgtop #footer-content #supplementary .widget-title {
+          padding-top: 0px;
+          padding-bottom: 10px; }
+        #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first {
+          float: left;
+          width: 270px;
+          padding-right: 15px;
+          /* newsletter signup region of footer */
+          /* #newsletterSignupForm */
+          /* social media region of footer */
+          /* end social media region of footer */ }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #newsletterSignupForm p {
+            margin-bottom: 0; }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #newsletterSignupForm .form-row {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding-top: 10px; }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #newsletterSignupForm #newsletterSignupSubmit {
+            background: url("../images-aplus/signup.png") no-repeat top left;
+            width: 125px;
+            height: 43px;
+            display: block;
+            font-size: 0px !important;
+            border: none;
+            padding: 0;
+            float: left;
+            position: relative;
+            left: -10px;
+            top: -5px; }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #text-4 {
+            /* #follow */ }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #text-4 .widget-title {
+              padding-top: 10px; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #text-4 #follow a {
+              float: left;
+              text-decoration: none;
+              color: #fff;
+              font-size: 0px !important;
+              display: block;
+              padding-right: 10px; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #text-4 #follow a.facebook {
+              background: url("../images-aplus/social-sprite.png") no-repeat 0px 0px;
+              width: 25px;
+              height: 40px; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #text-4 #follow a.twitter {
+              background: url("../images-aplus/social-sprite.png") no-repeat -35px 0px;
+              width: 45px;
+              height: 40px; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #first #text-4 #follow a.podcast_rss {
+              background: url("../images-aplus/podcast_rss_icon.png") no-repeat top left;
+              width: 48px;
+              height: 40px;
+              padding-right: 0; }
+        #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second {
+          float: left;
+          width: 400px;
+          padding-right: 5px;
+          /* Contact Us blurb */
+          /* end Contact Us blurb */
+          /* MY A+ SIGN IN FORM */
+          /* end #text-7, MY A+ SIGN IN FORM */ }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second address, #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second p {
+            margin: 0;
+            line-height: 1.5em;
+            font-size: 1em;
+            font-style: normal; }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second #text-5 {
+            width: 150px;
+            display: inline-block;
+            float: left;
+            clear: left; }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second #text-7 {
+            width: 200px;
+            display: inline-block;
+            float: right;
+            clear: right; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second #text-7 #footer-login .call {
+              width: 60px;
+              display: inline-block; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second #text-7 #footer-login .phone input {
+              padding: 3px; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second #text-7 #footer-login input[type="submit"] {
+              margin-top: 10px;
+              margin-right: 10px; }
+            #footer-content-bg #footer-content-bgtop #footer-content #supplementary #second #text-7 #footer-login a {
+              font-style: italic;
+              position: relative;
+              top: 6px;
+              left: 2px; }
+        #footer-content-bg #footer-content-bgtop #footer-content #supplementary #third {
+          float: right;
+          width: 240px;
+          /* badge region of footer */ }
+          #footer-content-bg #footer-content-bgtop #footer-content #supplementary #third #badge {
+            background: url("../images-aplus/footer-badge.png") no-repeat top center;
+            display: block;
+            width: 230px;
+            height: 234px;
+            float: right; }
+
+/* #footer-content-bg */
+#subfooter {
+  overflow: hidden;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  background: url("../images-aplus/background-subfooter.png") repeat;
+  padding: 10px 0 5px 0;
+  /* .menu-footer-links-container */ }
+  #subfooter p {
+    color: #fff;
+    margin: 0; }
+  #subfooter .menu-footer-links-container {
+    display: inline-block; }
+    #subfooter .menu-footer-links-container ul {
+      list-style: none;
+      margin: auto;
+      padding: 0; }
+      #subfooter .menu-footer-links-container ul li {
+        float: left;
+        padding: 5px 10px; }
+        #subfooter .menu-footer-links-container ul li a {
+          color: #fff;
+          font-size: 10px;
+          text-decoration: none; }
+        #subfooter .menu-footer-links-container ul li a:hover {
+          text-decoration: underline; }
+
+/* #subfooter */
+/* END OF FOOTER */
 

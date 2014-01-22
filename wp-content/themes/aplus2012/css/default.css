@@ -190,73 +190,7 @@ margin-bottom:15px;
 	float: left;
 }
 
-/** FOOTER */
 
-#subfooter {
-	overflow: hidden;
-	height: auto;
-	padding:0;
-	text-align:center;
-	color:#fff;
-	background: url('../images-aplus/background-subfooter.png') repeat;
-  padding:10px 0 5px 0;
-}
-#subfooter p {
-  color:#fff;
-  margin:0;
-}
-
-#footer p {
-	margin: 0px;
-	padding: 5px 0px 0px 0px;
-	text-align: center;
-	color: #444444;
-}
-
-#footer-content-bg {
-	overflow: hidden;
-	background: url('../images-aplus/background-footer.png') repeat;
-}
-
-#footer-content-bgtop {
-	overflow: hidden;
-	padding: 25px 0px 40px 0px;
-}
-
-#footer-content {
-	width: 960px;
-	margin: 0px auto;
-	color: #AFAFAF;
-}
-
-#footer-content .widget-title {
-	padding-bottom: 25px;
-	font-size: 24px;
-	color: #FFFFFF;
-}
-
-#footer-content #supplementary #first {
-	float: left;
-	width: 270px;
-	padding-right: 15px;
-}
-
-#footer-content #supplementary #second {
-	float: left;
-	width: 400px;
-	padding-right: 5px;
-}
-#footer-content #second address, #footer-content #second p {
-  margin:0;
-  line-height:1.5em;
-  font-size:1em;
-  font-style:normal;
-}
-
-#footer-content #supplementary #third {
-	float: right;
-	width: 240px;
-}
 
 /** THREE COLUMNS */
 

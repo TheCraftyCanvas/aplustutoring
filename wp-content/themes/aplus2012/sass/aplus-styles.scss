@@ -5,7 +5,10 @@
 */
 
 
-/** HEADER */
+
+/*
+* HEADER 
+*/
 
 #branding {
 	padding-bottom: 10px;
@@ -67,26 +70,21 @@
 	}
 } /* #branding */
 
+/* END OF HEADER */
+
+
 
 
 /*
-
-#site-description {
-	color: #7a7a7a;
-	font-size: 14px;
-	margin: 0 270px 3.65625em 0;
-}
+* DESKTOP MAIN MENU
 */
-
-
-/* Desktop Main Menu */
 
 #access {
 	position:relative;
 }
 
-/** MENU */
 
+/* PRIMARY MENU LEVEL */
 .menu-main-menu-container {
 	overflow: hidden;
 	width: 963px;
@@ -103,118 +101,93 @@
 	line-height: 60px;
 	letter-spacing: -1px;
 	text-decoration: none;
-  font-family: 'Gudea', sans-serif;
+    font-family: 'Gudea', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	color: #FFFFFF;
-}
 
-#menu-main-menu ul {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	line-height: normal;
-}
+	ul {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		line-height: normal;
+	}
 
-#menu-main-menu li {
-	float: left;
-	padding: 0px 0px 0px 20px;
-	white-space: nowrap;
-}
+	li {
+		float: left;
+		padding: 0px 0px 0px 20px;
+		white-space: nowrap;
 
-#menu-main-menu a {
-	display: block;
-	float: left;
-	text-decoration: none;
-	color: #FFFFFF;
-}
+		span {
+			display: inline-block;
+			height: 60px;
+		}
 
-#menu-main-menu a:hover {
-	text-decoration: underline;
-}
+		/* conceal submenus on initial load, dropotron will automatically extract the submenus into its own div */
+		ul { 
+			display: none; 
+			visibility: hidden; 
+		}
+	}
 
-#menu-main-menu li span {
-	display: inline-block;
-	height: 60px;
-}
+	a {
+		display: block;
+		float: left;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
 
-#menu-main-menu .arrow {
-	background: url(../images/menu-icon-arrow-bg.png) no-repeat right 30px;
-	padding-right: 20px;
-	margin-right: 20px;
-}
+	a:hover { text-decoration: underline; }
 
-/** DROPOTRON */
+	.arrow {
+		background: url(../images/menu-icon-arrow-bg.png) no-repeat right 30px;
+		padding-right: 20px;
+		margin-right: 20px;
+	}
+} /* #menu-main-menu */
 
-ul.dropotron {
-margin: 0 0 1.625em 0;
-}
 
-.dropotron li.opener {
-}
-
+/** DROPOTRON submenu (main menu dropdown & flyouts) */
+ul.dropotron { margin: 0 0 1.625em 0; }
 .dropotron {
 	max-width: 350px;
 	padding: 0 0 0 0;
-	background: #990000;
+	background: #cb2027;
 	letter-spacing: -1px;
 	list-style: none;
 	font-size: 14px;
 	font-family: 'Maven Pro', sans-serif;
 	font-weight: 400;
 	color: #FFFFFF;
-}
-.dropotron .dropotron {
-  background: #cc0000;
-  margin-top:12px;
-  width:200px;
-}
+	border-radius: 5px;
 
-.dropotron a {
-	text-decoration: none;
-	color: #FFFFFF;
-}
+	li {
+		height: auto;
+		padding: 0px 8px;
+		line-height: 40px;
+		color: #FFFFFF;
+		white-space: normal !important;
+		border: 1px solid #cb2027;
+		border-radius: 5px;
+		.arrow {}
+	}
 
-.dropotron li {
-	height: auto;
-	padding: 0px 10px;
-	line-height: 40px;
-	color: #FFFFFF;
-	white-space: normal !important;
-}
-.dropotron .dropotron li {
-	height: auto;
-	padding: 0px 10px;
-	line-height: 40px;
-	color: #FFFFFF;
-	white-space: normal !important;
-}
+	li.opener { }
+	li:hover { background: #ffffff; border: 1px solid #cb2027; }
+	li:hover > a, li:hover > span { color: #cb2027; }
+	
+	.dropotron {
+		margin-top:12px;
+		width:200px;
+	}
 
-.dropotron li:hover {
-	background: #902B2E;
-}
-
-.dropotron li:hover > a, .dropotron li:hover > span {
-	color: #FFFFFF;
-}
-
-.dropotron li .arrow {
-}
-
-.dropotron span {
-	display: block;
-	margin-right: -1px;
-}
-
-.dropotron li:hover > span {
-}
-
-.dropotron .first {
-	border-top: none;
-}
+	a { text-decoration: none; color: #FFFFFF; }
+	span { display: block; margin-right: -1px; }
+	.first { border-top: none; }
+} /* .dropotron */
 
 
-
+/* PHONE NUMBER */
 .callout-phone-number {
   position: absolute;
   right: 0;
@@ -234,3 +207,235 @@ margin: 0 0 1.625em 0;
 
 } /* .callout-phone-number */
 
+/* END OF DESKTOP MAIN MENU */
+
+
+
+
+/* 
+* FOOTER
+*/
+
+#colophon {
+	clear: both;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+	text-align: center;
+	color: #444444;
+}
+
+#footer-content-bg {
+	overflow: hidden;
+	background: url('../images-aplus/background-footer.png') repeat;
+
+	#footer-content-bgtop {
+		overflow: hidden;
+		padding: 25px 0px 40px 0px;
+
+		#footer-content {
+			width: 960px;
+			margin: 0px auto;
+			color: #AFAFAF;
+
+			.widget-title {
+				font-size: 24px;
+				color: #FFFFFF;
+			}
+			#supplementary.three {
+				.widget {
+					margin: 0;
+				}
+				.textwidget {
+					display: inline-block;
+				}
+				.widget-area {
+					float: right;
+					width: 30.85%;
+				}
+				.widget-area + .widget-area + .widget-area {
+					margin-right: 0;
+				}
+			}
+			#supplementary {
+				.widget-title {
+					padding-top:0px;
+					padding-bottom:10px;
+				}
+
+				#first {
+					float: left;
+					width: 270px;
+					padding-right: 15px;
+
+					/* newsletter signup region of footer */
+					#newsletterSignupForm {
+						p { margin-bottom:0; }
+						.form-row {
+							clear:both;
+							width:100%;
+							float:left;
+							padding-top:10px;
+						}
+						#newsletterSignupSubmit {
+							background:url('../images-aplus/signup.png') no-repeat top left;
+							width: 125px;
+							height: 43px;
+							display:block;
+							font-size:0px !important;
+							border:none;
+							padding:0;
+							float:left;
+							position:relative;
+							left:-10px;
+							top:-5px;
+						}
+					} /* #newsletterSignupForm */
+
+					/* social media region of footer */
+					#text-4 {
+						.widget-title { padding-top:10px;}
+		
+						#follow {
+							a {
+								float:left;
+								text-decoration:none;
+								color: #fff;
+								font-size:0px !important;
+								display:block;
+								padding-right:10px;
+							}
+							a.facebook {
+								background:url('../images-aplus/social-sprite.png') no-repeat 0px 0px;
+								width: 25px;
+								height: 40px;
+							}
+							a.twitter {
+								background:url('../images-aplus/social-sprite.png') no-repeat -35px 0px;
+								width: 45px;
+								height: 40px;
+							}
+							a.podcast_rss {
+								background:url('../images-aplus/podcast_rss_icon.png') no-repeat top left;
+								width: 48px;
+								height: 40px;
+								padding-right:0;
+							}
+						} /* #follow */
+					} /* end social media region of footer */
+				} /* first */
+
+				#second {
+					float: left;
+					width: 400px;
+					padding-right: 5px;
+	
+					address, p {
+					  margin:0;
+					  line-height:1.5em;
+					  font-size:1em;
+					  font-style:normal;
+					}
+
+					/* Contact Us blurb */
+					#text-5 {
+						width:150px;
+						display:inline-block;
+						float:left;
+						clear:left;
+					}
+					/* end Contact Us blurb */
+
+					/* MY A+ SIGN IN FORM */
+					#text-7 {
+						width:200px;
+						display:inline-block;
+						float:right;
+						clear:right;
+
+
+						#footer-login {
+							.call {
+								width: 60px;
+								display: inline-block;
+							}
+							.phone input {
+								padding:3px;
+							}
+							input[type="submit"] {
+								margin-top:10px;
+								margin-right:10px;
+							}
+							a {
+								font-style: italic;
+								position: relative;
+								top: 6px;
+								left: 2px;
+							}
+						}
+					} /* end #text-7, MY A+ SIGN IN FORM */
+
+				} /* #second */
+
+				#third {
+					float: right;
+					width: 240px;
+
+					/* badge region of footer */
+					#badge {
+						background:url('../images-aplus/footer-badge.png') no-repeat top center;
+						display:block;
+						width:230px;
+						height:234px;
+						float:right;
+					}
+				} /* #third */
+
+			} /* #supplementary */
+
+		} /* #footer-content */
+	} /* #footer-content-bgtop */
+} /* #footer-content-bg */
+
+
+
+#subfooter {
+	overflow: hidden;
+	height: auto;
+	text-align:center;
+	color:#fff;
+	background: url('../images-aplus/background-subfooter.png') repeat;
+	padding:10px 0 5px 0;
+
+	p {
+	  color:#fff;
+	  margin:0;
+	}
+
+	.menu-footer-links-container {
+		display:inline-block;
+
+		ul {
+			list-style:none;
+			margin:auto;
+			padding:0;
+	
+			li {
+				float:left;
+				padding:5px 10px;
+				a {
+					color:#fff;
+					font-size:10px;
+					text-decoration:none;
+				}
+				a:hover {
+					text-decoration:underline;
+				}
+			}
+		}
+	} /* .menu-footer-links-container */
+} /* #subfooter */
+
+/* END OF FOOTER */
