@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 
 
   if( $('#featured-upcoming-events') ) {
-  console.log("featured events listing found");
+    /* console.log("featured events listing found"); */
     $('#featured-upcoming-events > li:first').addClass('first');
     $('#featured-upcoming-events > li:last').addClass('last');
   }

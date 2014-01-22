@@ -32,7 +32,12 @@
 </footer><!-- #colophon -->
 
 
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.dropotron.min.js" >
+</script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/aplus2012.js" >
+</script>
 <?php wp_footer(); ?>
 </div><!--/#body-wrapper-->
+
 </body>
 </html>

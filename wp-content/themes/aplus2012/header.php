@@ -80,8 +80,8 @@
 	 */
 	wp_head();
 ?>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.dropotron-1.0.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/aplus2012.js"></script>
+
+
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
