@@ -1,10 +1,10 @@
-.htaccess
 wp-config.php
 _local/*
 
 wp-admin/
 wp-content/upgrade/
 wp-includes/
+wp-content/uploads/*/.htaccess
 
 sitemap.xml
 sitemap.xml.gz
