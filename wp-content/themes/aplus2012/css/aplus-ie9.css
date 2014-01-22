@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,700,400italic);
+
+html, body {
+    position:relative;
+    overflow:auto;
+    margin:0 auto !important;
+}
+
+#body-wrapper {
+height:auto;
+background-repeat:no-repeat;
+}
+#content-wrapper {
+height:auto;
+background:#ffffff repeat;
+}
+
+/* header section */
+#branding {
+width:100%;
+}
+#one-to-one-instruction-ribbon {
+top:-10px;
+}
+
+
+
+/* home page */
+.box .rctr, .box .rcbr, .box .rcbl {
+  width:auto;
+}
+
+/* body */
+.singular #primary {
+  height:auto;
+  display:inline-block;
+}
+
+.entry-content #countdown ul ul li h6 {
+display:inline;
+float:left;
+}
+.entry-content #countdown ul ul li h2 {
+position:relative;
+top:10px;
+width:auto;
+padding-left:15px;
+}
+
+ul li h6, .programs ul li h6 {
+padding-top: 5px;
+}
+
+
+/* footer */
+#footer-login .call {
+width:58px;
+}
+#footer-login .phone input {
+padding-left:0px;
+padding-right:0px;
+}

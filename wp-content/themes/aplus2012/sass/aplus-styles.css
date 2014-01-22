@@ -1,0 +1,183 @@
+/*
+*  @file: aplus-styles.scss
+*  @description: A+ Test Prep & Tutoring 2014 SASS  compilation of former CSS Files
+* @author: Anson Han, The Crafty Canvas (www.thecraftycanvas.com)
+*/
+/** HEADER */
+#branding {
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 9999;
+  /* #header */ }
+  #branding #header {
+    overflow: hidden;
+    padding: 0 15px 0 15px;
+    /* #logo */ }
+    #branding #header #logo {
+      float: left;
+      width: auto;
+      padding-top: 10px;
+      /* #site-title */ }
+      #branding #header #logo h1, #branding #header #logo p {
+        margin: 0px;
+        line-height: normal; }
+      #branding #header #logo h1 a {
+        display: block;
+        letter-spacing: -3px;
+        text-decoration: none;
+        color: #303030;
+        font-size: 0px;
+        background: url("../images-aplus/logo-transparent.png") no-repeat center center;
+        width: 261px;
+        height: 163px; }
+      #branding #header #logo #site-title a {
+        font-weight: bold;
+        line-height: 36px;
+        text-decoration: none; }
+      #branding #header #logo #site-title a:hover, #branding #header #logo #site-title a:focus, #branding #header #logo #site-title a:active {
+        color: #1982d1; }
+  #branding img {
+    height: auto;
+    margin-bottom: -7px;
+    width: 100%; }
+  #branding #one-to-one-instruction-ribbon {
+    background: url("../images-aplus/header-ribbon.png") no-repeat top center;
+    position: absolute;
+    top: -22px;
+    right: 0;
+    display: block;
+    width: 240px;
+    height: 173px; }
+
+/* #branding */
+/*
+
+#site-description {
+	color: #7a7a7a;
+	font-size: 14px;
+	margin: 0 270px 3.65625em 0;
+}
+*/
+/* Desktop Main Menu */
+#access {
+  position: relative; }
+
+/** MENU */
+.menu-main-menu-container {
+  overflow: hidden;
+  width: 963px;
+  height: 60px;
+  border-radius: 5px;
+  background: #cb2027; }
+
+#menu-main-menu {
+  width: 963px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  line-height: 60px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  font-family: 'Gudea', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF; }
+
+#menu-main-menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  line-height: normal; }
+
+#menu-main-menu li {
+  float: left;
+  padding: 0px 0px 0px 20px;
+  white-space: nowrap; }
+
+#menu-main-menu a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #FFFFFF; }
+
+#menu-main-menu a:hover {
+  text-decoration: underline; }
+
+#menu-main-menu li span {
+  display: inline-block;
+  height: 60px; }
+
+#menu-main-menu .arrow {
+  background: url(../images/menu-icon-arrow-bg.png) no-repeat right 30px;
+  padding-right: 20px;
+  margin-right: 20px; }
+
+/** DROPOTRON */
+ul.dropotron {
+  margin: 0 0 1.625em 0; }
+
+.dropotron {
+  max-width: 350px;
+  padding: 0 0 0 0;
+  background: #990000;
+  letter-spacing: -1px;
+  list-style: none;
+  font-size: 14px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF; }
+
+.dropotron .dropotron {
+  background: #cc0000;
+  margin-top: 12px;
+  width: 200px; }
+
+.dropotron a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.dropotron li {
+  height: auto;
+  padding: 0px 10px;
+  line-height: 40px;
+  color: #FFFFFF;
+  white-space: normal !important; }
+
+.dropotron .dropotron li {
+  height: auto;
+  padding: 0px 10px;
+  line-height: 40px;
+  color: #FFFFFF;
+  white-space: normal !important; }
+
+.dropotron li:hover {
+  background: #902B2E; }
+
+.dropotron li:hover > a, .dropotron li:hover > span {
+  color: #FFFFFF; }
+
+.dropotron span {
+  display: block;
+  margin-right: -1px; }
+
+.dropotron .first {
+  border-top: none; }
+
+.callout-phone-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999999;
+  padding-top: 12px;
+  padding-right: 10px; }
+  .callout-phone-number a, .callout-phone-number a:visited, .callout-phone-number a:active {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 600; }
+  .callout-phone-number a:hover {
+    color: #2f3938; }
+
+/* .callout-phone-number */
+

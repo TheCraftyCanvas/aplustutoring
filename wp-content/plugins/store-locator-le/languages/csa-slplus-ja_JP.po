@@ -1,0 +1,1641 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Store Locator Plus\n"
+"POT-Creation-Date: 2013-10-01 22:43+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Karen Ellrick <osakawebbie@gmail.com>\n"
+"Language-Team: Japanese <osakawebbie@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: store-locator-le.php:169 include/class.ui.php:495
+msgid "Store Locator Plus"
+msgstr "Store Locator Plus"
+
+#: include/class.actions.php:136
+msgid "Info"
+msgstr "情報"
+
+#: include/class.actions.php:142
+msgid "Locations"
+msgstr "ロケーション"
+
+#: include/class.actions.php:148
+msgid "User Experience"
+msgstr "ユーザ・エクスぺリエンス"
+
+#: include/class.actions.php:154 include/class.adminui.generalsettings.php:272
+msgid "General Settings"
+msgstr "総合設定"
+
+#: include/class.actions.php:251
+msgid "Store Pages"
+msgstr "ストアページ"
+
+#: include/class.actions.php:252
+msgid "Store Page"
+msgstr "ストアページ"
+
+#: include/class.actions.php:253
+msgid "Add New Store Page"
+msgstr "新規ストアページを追加"
+
+#: include/class.actions.php:282
+msgid "Store Locator Plus location pages."
+msgstr "Store Locator Plus のストアページ"
+
+#: include/class.actions.php:301
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: include/class.actions.php:302
+msgid "Store Categories"
+msgstr "ストアのカテゴリー"
+
+#: include/class.adminui.generalsettings.php:121
+msgid "Admin"
+msgstr "管理"
+
+#: include/class.adminui.generalsettings.php:126
+#: WPCSL-generic/classes/CSL-plugin.php:515
+msgid "Settings"
+msgstr "設定"
+
+#: include/class.adminui.generalsettings.php:127
+msgid "Turn off rate notification"
+msgstr "評価メッセージを無効する"
+
+#: include/class.adminui.generalsettings.php:131
+msgid "This will disable the notification asking you to rate our product."
+msgstr "商品を評価する誘いのメッセージを無効にします。"
+
+#: include/class.adminui.generalsettings.php:144
+msgid "Google"
+msgstr "Google"
+
+#: include/class.adminui.generalsettings.php:147
+msgid "Geocoding"
+msgstr "Geocoding"
+
+#: include/class.adminui.generalsettings.php:152
+msgid "Geocode Retries"
+msgstr "Geocode再試行の回数"
+
+#: include/class.adminui.generalsettings.php:171
+msgid ""
+"How many times should we try to set the latitude/longitude for a new "
+"address? "
+msgstr "新しい住所のために何回まで緯度と経度の設定を再試行しましょうか。"
+
+#: include/class.adminui.generalsettings.php:172
+msgid "Higher numbers mean slower bulk uploads. "
+msgstr "回数は高いほど、一括アップロードは遅くなります。"
+
+#: include/class.adminui.generalsettings.php:173
+msgid ""
+"Lower numbers make it more likely the location will not be set during bulk "
+"uploads. "
+msgstr ""
+"回数は低いほど、一括アップロードの際は位置は設定されない可能性が高くなりま"
+"す。"
+
+#: include/class.adminui.generalsettings.php:174
+#: include/class.adminui.generalsettings.php:190
+#, php-format
+msgid "Bulk import or re-geocoding is a %s feature."
+msgstr "一括のインポート／再geocodeの機能は%sが必要です。"
+
+#: include/class.adminui.generalsettings.php:182
+msgid "Maximum Retry Delay"
+msgstr "再試行の間の延期"
+
+#: include/class.adminui.generalsettings.php:187
+msgid "Maximum time to wait between retries, in seconds. "
+msgstr "Geocode再試行の間に待つ秒数"
+
+#: include/class.adminui.generalsettings.php:188
+msgid "Use multiples of 1. "
+msgstr "１の倍数でのみ設定してくさだい。"
+
+#: include/class.adminui.generalsettings.php:189
+msgid "Recommended value is 5. "
+msgstr "推奨の値は５です。"
+
+#: include/class.adminui.generalsettings.php:198
+msgid "Google API Key"
+msgstr "Google API Key"
+
+#: include/class.adminui.generalsettings.php:201
+msgid ""
+"This setting helps with query limits for businesses with a Google Business "
+"Account only."
+msgstr "Google Business Accountが持つビジネスの場合、取得期限に役に立ちます。"
+
+#: include/class.adminui.generalsettings.php:202
+msgid "The free Google API keys do not have an impact on query limits."
+msgstr "無料のGoogle API Keyは取得期限に影響はありません。"
+
+#: include/class.adminui.generalsettings.php:210
+msgid "Turn Off SLP Maps"
+msgstr "SLP地図を無効にする"
+
+#: include/class.adminui.generalsettings.php:214
+msgid ""
+"Check this box if your Theme or another plugin is providing Google Maps and "
+"generating warning messages. THIS MAY BREAK THIS PLUGIN."
+msgstr ""
+"Google Maps機能と注意のメッセージは、テーマ、または他のプラグインによって提供"
+"されている場合、これをチェックしてください。ただし、このプラグインは動けなく"
+"なる可能性があります。"
+
+#: include/class.adminui.generalsettings.php:229
+msgid "User Interface"
+msgstr "ユーザ・インターフェース"
+
+#: include/class.adminui.generalsettings.php:232
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: include/class.adminui.generalsettings.php:237
+msgid "Force Load JavaScript"
+msgstr "Javascriptのロードを強制する"
+
+#: include/class.adminui.generalsettings.php:242
+msgid ""
+"Force the JavaScript for Store Locator Plus to load on every page with early "
+"loading. "
+msgstr ""
+"Store Locator PlusのJavascriptをページごとに早めにロードするように強制する。"
+
+#: include/class.adminui.generalsettings.php:243
+msgid ""
+"This can slow down your site, but is compatible with more themes and plugins."
+msgstr ""
+"サイトのレスポンスは遅くなる可能性がありますが、もっと多くのテーマやプラグイ"
+"ンとの互換性は高くなります。"
+
+#: include/class.adminui.locations.php:193
+#: include/class.adminui.locations.php:631
+msgid "Name"
+msgstr "名前"
+
+#: include/class.adminui.locations.php:194
+#: include/class.adminui.locations.php:628
+#: include/class.adminui.locations.php:1448
+#: include/class.adminui.mapsettings.php:892 include/class.ui.php:244
+msgid "Address"
+msgstr "住所"
+
+#: include/class.adminui.locations.php:206
+#: include/class.adminui.locations.php:732
+msgid "Description"
+msgstr "詳細説明"
+
+#: include/class.adminui.locations.php:207
+#: include/class.adminui.locations.php:740
+msgid "Website"
+msgstr "ウェブサイトURL"
+
+#: include/class.adminui.locations.php:208
+#: include/class.adminui.locations.php:745
+#: include/class.adminui.locations.php:1824
+msgid "Email"
+msgstr "メールアドレス"
+
+#: include/class.adminui.locations.php:209
+#: include/class.adminui.locations.php:750
+#: include/class.adminui.mapsettings.php:773
+msgid "Hours"
+msgstr "営業時間"
+
+#: include/class.adminui.locations.php:210
+#: include/class.adminui.locations.php:758
+#: include/class.adminui.mapsettings.php:780
+msgid "Phone"
+msgstr "電話番号"
+
+#: include/class.adminui.locations.php:211
+#: include/class.adminui.locations.php:763
+#: include/class.adminui.mapsettings.php:787
+msgid "Fax"
+msgstr "Fax"
+
+#: include/class.adminui.locations.php:293
+msgid " at "
+msgstr " @ "
+
+#: include/class.adminui.locations.php:501
+#, php-format
+msgid "Address %s (%d in current series) hit the Google query limit.\n"
+msgstr "住所「%s」（このシリーズの中の#%d）は、取得期限を超えました。\n"
+
+#: include/class.adminui.locations.php:530
+#, php-format
+msgid ""
+"Waited up to %4.2f seconds between request, total wait for this location was "
+"%4.2f seconds."
+msgstr ""
+"再試行の間、%4.2f 秒まで待って、このロケーションの合計の待ち時間は %4.2f 秒で"
+"した。"
+
+#: include/class.adminui.locations.php:536
+#, php-format
+msgid "%d total attempts for this location."
+msgstr "このロケーションには、%d回トライしました。"
+
+#: include/class.adminui.locations.php:546
+#: include/class.adminui.locations.php:559
+#, php-format
+msgid "Address #%d : %s <font color=red>failed to geocode</font>."
+msgstr "住所 #%d： %sは <font color=red>geocodeの取得を失敗しました</font>."
+
+#: include/class.adminui.locations.php:550
+#, php-format
+msgid "Unknown Address! Received status %s."
+msgstr "不明な住所です。ステータス「%s」を受け取りました。"
+
+#: include/class.adminui.locations.php:563
+#, php-format
+msgid "Received status %s."
+msgstr "ステータス「%s」を受け取りました。"
+
+#: include/class.adminui.locations.php:566
+#, php-format
+msgid "Received data %s."
+msgstr "%s データを受け取りました。"
+
+#: include/class.adminui.locations.php:578
+msgid "Geocode service non-responsive"
+msgstr "Geocodeサービスは応答していません"
+
+#: include/class.adminui.locations.php:591
+#, php-format
+msgid "Read <a href=\"%s\">this</a> if you are having geocoding issues."
+msgstr "Geocode関係の問題があれば、<a href=\"%s\">これ</a>を読んでください。"
+
+#: include/class.adminui.locations.php:607
+#, php-format
+msgid ""
+"Google thinks %s is at <a href=\"%s\" target=\"_blank\">lat: %s long %s</a>"
+msgstr ""
+"Googleによると、%s は <a href=\"%s\" target=\"_blank\">緯度: %s、経度: %s</"
+"a> の位置になります。"
+
+#: include/class.adminui.locations.php:636
+msgid "Street - Line 1"
+msgstr "住所 - 詳細1（区町村丁目番地）"
+
+#: include/class.adminui.locations.php:641
+msgid "Street - Line 2"
+msgstr "住所 - 詳細2（ビル名等）"
+
+#: include/class.adminui.locations.php:646
+msgid "City, State, ZIP"
+msgstr "市,都道府県,郵便番号"
+
+#: include/class.adminui.locations.php:666
+#: include/class.adminui.locations.php:1464
+msgid "Country"
+msgstr "国"
+
+#: include/class.adminui.locations.php:671
+msgid "Latitude (N/S)"
+msgstr "緯度 (N/S)"
+
+#: include/class.adminui.locations.php:676
+msgid "Longitude (E/W)"
+msgstr "経度 (E/W)"
+
+#: include/class.adminui.locations.php:698
+msgid "Add Location"
+msgstr "ロケーションの追加"
+
+#: include/class.adminui.locations.php:699
+msgid "Update Location"
+msgstr "ロケーションの更新"
+
+#: include/class.adminui.locations.php:707
+#: include/class.adminui.locations.php:1729
+#: include/class.adminui.locations.php:1960
+msgid "Add"
+msgstr "追加"
+
+#: include/class.adminui.locations.php:707
+msgid "Update"
+msgstr "更新"
+
+#: include/class.adminui.locations.php:712
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: include/class.adminui.locations.php:729
+msgid "Additional Information"
+msgstr "追加情報"
+
+#: include/class.adminui.locations.php:768
+msgid "Image URL"
+msgstr "イメージのURL"
+
+#: include/class.adminui.locations.php:895
+msgid "Added Successfully"
+msgstr "追加が成功しました。"
+
+#: include/class.adminui.locations.php:1112
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: include/class.adminui.locations.php:1117
+msgid "Delete Permanently"
+msgstr "完全に削除"
+
+#: include/class.adminui.locations.php:1137
+msgid "Are you sure you want to "
+msgstr "確認してください："
+
+#: include/class.adminui.locations.php:1146
+#: WPCSL-generic/classes/CSL-helper_class.php:135
+msgid "Apply"
+msgstr "適用"
+
+#: include/class.adminui.locations.php:1167
+msgid "Show All"
+msgstr "全てを見る"
+
+#: include/class.adminui.locations.php:1183
+msgid "Filter"
+msgstr "フィルター"
+
+#: include/class.adminui.locations.php:1240
+msgid "Normal"
+msgstr "ノーマル"
+
+#: include/class.adminui.locations.php:1245
+msgid "Expanded"
+msgstr "詳細表示"
+
+#: include/class.adminui.locations.php:1250
+#: include/class.adminui.locations.php:1255
+#: include/class.adminui.locations.php:1260
+#: include/class.adminui.locations.php:1265
+#: include/class.adminui.locations.php:1270
+#: include/class.adminui.locations.php:1275
+#, php-format
+msgid "%d locations"
+msgstr "%d のロケーション"
+
+#: include/class.adminui.locations.php:1291
+msgid "Display"
+msgstr "表示"
+
+#: include/class.adminui.locations.php:1318
+msgid "for your search of"
+msgstr ""
+
+#: include/class.adminui.locations.php:1320
+msgid "Clear&nbsp;Results"
+msgstr "結果のクリア"
+
+#: include/class.adminui.locations.php:1392
+msgid "locations"
+msgstr "のロケーション"
+
+#: include/class.adminui.locations.php:1411
+msgid "Search"
+msgstr "検索"
+
+#: include/class.adminui.locations.php:1437
+msgid "Actions"
+msgstr "操作"
+
+#: include/class.adminui.locations.php:1452
+msgid "City"
+msgstr "都市"
+
+#: include/class.adminui.locations.php:1456
+msgid "State"
+msgstr "都道府県"
+
+#: include/class.adminui.locations.php:1460
+msgid "Zip"
+msgstr "郵便番号"
+
+#: include/class.adminui.locations.php:1626
+msgid "Store Locator Plus - Locations"
+msgstr "Store Locator Plus - ロケーション"
+
+#: include/class.adminui.locations.php:1728
+#: include/class.adminui.locations.php:1952
+msgid "Manage"
+msgstr "管理"
+
+#: include/class.adminui.locations.php:1818
+#: include/class.adminui.locations.php:1828
+#: include/class.adminui.mapsettings.php:77
+msgid "View"
+msgstr "ヴュー"
+
+#: include/class.adminui.locations.php:1833
+msgid "edit"
+msgstr "編集"
+
+#: include/class.adminui.locations.php:1836
+msgid "delete"
+msgstr "削除"
+
+#: include/class.adminui.locations.php:1838
+#, php-format
+msgid "Delete %s?"
+msgstr "%sを削除しますか?"
+
+#: include/class.adminui.locations.php:1925
+msgid "Search Locations returned no matches."
+msgstr "ロケーション検索に当てはまる項目はありません。"
+
+#: include/class.adminui.locations.php:1926
+msgid "No locations have been created yet."
+msgstr "まだロケーションを作成されていません。"
+
+#: include/class.adminui.mapsettings.php:47
+msgid " - User Experience"
+msgstr " - ユーザ・エクスぺリエンス"
+
+#: include/class.adminui.mapsettings.php:51
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: include/class.adminui.mapsettings.php:282
+msgid "Look and Feel"
+msgstr "ルック&フィール"
+
+#: include/class.adminui.mapsettings.php:286
+msgid "Map Height"
+msgstr "地図の高さ"
+
+#: include/class.adminui.mapsettings.php:287
+msgid "The initial map height in pixels or percent of initial page height."
+msgstr "地図の最初の高さ、ピクセルまたはページの高さのパーセント"
+
+#: include/class.adminui.mapsettings.php:295
+msgid "Height Units"
+msgstr "高さの単位"
+
+#: include/class.adminui.mapsettings.php:296
+#: include/class.adminui.mapsettings.php:312
+msgid "Is the width a percentage of page width or absolute pixel size?"
+msgstr "幅は"
+
+#: include/class.adminui.mapsettings.php:303
+msgid "Map Width"
+msgstr "地図の幅"
+
+#: include/class.adminui.mapsettings.php:304
+msgid ""
+"The initial map width in pixels or percent of page width. Also sets results "
+"width."
+msgstr ""
+"地図の最初の幅、ピクセルまたはページの幅のパーセント（結果の幅をも設定しま"
+"す）"
+
+#: include/class.adminui.mapsettings.php:311
+msgid "Width Units"
+msgstr "幅の単位"
+
+#: include/class.adminui.mapsettings.php:319
+msgid "Default Map Type"
+msgstr "標準地図タイプ"
+
+#: include/class.adminui.mapsettings.php:320
+msgid "What style Google Map should we use?"
+msgstr "最初に、どんな Google 地図を表示しますか？"
+
+#: include/class.adminui.mapsettings.php:326
+msgid "Remove Credits"
+msgstr "クレジットを隠す"
+
+#: include/class.adminui.mapsettings.php:327
+msgid "Remove the search provided by tagline under the map."
+msgstr "地図の下にある「検索の提供…」を表示しない"
+
+#: include/class.adminui.mapsettings.php:339
+msgid "Behavior"
+msgstr "作用"
+
+#: include/class.adminui.mapsettings.php:344
+msgid "Map Domain"
+msgstr "地図の地域"
+
+#: include/class.adminui.mapsettings.php:358
+msgid "Map Language"
+msgstr "地図の言語"
+
+#: include/class.adminui.mapsettings.php:372
+msgid "Zoom Level"
+msgstr "ズームレベル"
+
+#: include/class.adminui.mapsettings.php:373
+msgid ""
+"Initial zoom level of the map if \"immediately show locations\" is NOT "
+"selected or if only a single location is found.  0 = world view, 19 = house "
+"view."
+msgstr ""
+"地図の最初のズーム程度（「最初にロケーションを表示」が設定されていない限り）"
+
+#: include/class.adminui.mapsettings.php:381
+msgid "Zoom Adjustment"
+msgstr "ズーム調整"
+
+#: include/class.adminui.mapsettings.php:382
+msgid ""
+"Changes how tight auto-zoom bounds the locations shown.  Lower numbers are "
+"closer to the locations."
+msgstr ""
+"表示されるロケーションのまわり、どれほどズームしますか。低いほどはロケーショ"
+"ンに近くなります。"
+
+#: include/class.adminui.mapsettings.php:401
+msgid "Home Marker"
+msgstr "ホームのアイコン"
+
+#: include/class.adminui.mapsettings.php:409
+msgid "Destination Marker"
+msgstr "目的地のアイコン"
+
+#: include/class.adminui.mapsettings.php:417
+msgid "Saved markers live here: "
+msgstr "保存されているアイコンはここです："
+
+#: include/class.adminui.mapsettings.php:425
+msgid "Map Features"
+msgstr "地図の形式"
+
+#: include/class.adminui.mapsettings.php:431
+msgid "Map Settings"
+msgstr "地図設定"
+
+#: include/class.adminui.mapsettings.php:437
+msgid "Map Markers"
+msgstr "地図のアイコン"
+
+#: include/class.adminui.mapsettings.php:445
+msgid "Map"
+msgstr "地図"
+
+#: include/class.adminui.mapsettings.php:463
+msgid "United States"
+msgstr "アメリカ"
+
+#: include/class.adminui.mapsettings.php:464
+msgid "Argentina"
+msgstr "アルゼンチン"
+
+#: include/class.adminui.mapsettings.php:465
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: include/class.adminui.mapsettings.php:466
+msgid "Austria"
+msgstr "オーストリア"
+
+#: include/class.adminui.mapsettings.php:467
+msgid "Bahamas"
+msgstr "バハマ"
+
+#: include/class.adminui.mapsettings.php:468
+msgid "Belgium"
+msgstr "ベルギー"
+
+#: include/class.adminui.mapsettings.php:469
+msgid "Brazil"
+msgstr "ブラジル"
+
+#: include/class.adminui.mapsettings.php:470
+msgid "Canada"
+msgstr "カナダ"
+
+#: include/class.adminui.mapsettings.php:471
+msgid "Chile"
+msgstr "チリ"
+
+#: include/class.adminui.mapsettings.php:472
+msgid "China"
+msgstr "中国"
+
+#: include/class.adminui.mapsettings.php:473
+msgid "Czech Republic"
+msgstr "チェコ"
+
+#: include/class.adminui.mapsettings.php:474
+msgid "Denmark"
+msgstr "デンマーク"
+
+#: include/class.adminui.mapsettings.php:475
+msgid "Estonia"
+msgstr "エストニア"
+
+#: include/class.adminui.mapsettings.php:476
+msgid "Finland"
+msgstr "フィンランド"
+
+#: include/class.adminui.mapsettings.php:477
+msgid "France"
+msgstr "フランス"
+
+#: include/class.adminui.mapsettings.php:478
+msgid "Germany"
+msgstr "ドイツ"
+
+#: include/class.adminui.mapsettings.php:479
+msgid "Greece"
+msgstr "ギリシャ"
+
+#: include/class.adminui.mapsettings.php:480
+msgid "Hong Kong"
+msgstr "香港"
+
+#: include/class.adminui.mapsettings.php:481
+msgid "Hungary"
+msgstr "ハンガリー"
+
+#: include/class.adminui.mapsettings.php:482
+msgid "India"
+msgstr "インド"
+
+#: include/class.adminui.mapsettings.php:483
+msgid "Philippines"
+msgstr "フィリピン"
+
+#: include/class.adminui.mapsettings.php:484
+msgid "Republic of Ireland"
+msgstr "アイルランド"
+
+#: include/class.adminui.mapsettings.php:485
+msgid "Israel"
+msgstr "イスラエル"
+
+#: include/class.adminui.mapsettings.php:486
+msgid "Italy"
+msgstr "イタリア"
+
+#: include/class.adminui.mapsettings.php:487
+msgid "Japan"
+msgstr "日本"
+
+#: include/class.adminui.mapsettings.php:488
+msgid "Liechtenstein"
+msgstr "リヒテンシュタイン"
+
+#: include/class.adminui.mapsettings.php:489
+msgid "Lithuania"
+msgstr "リトアニア"
+
+#: include/class.adminui.mapsettings.php:490
+msgid "Mexico"
+msgstr "メキシコ"
+
+#: include/class.adminui.mapsettings.php:491
+msgid "Netherlands"
+msgstr "オランダ"
+
+#: include/class.adminui.mapsettings.php:492
+msgid "New Zealand"
+msgstr "ニュージーランド"
+
+#: include/class.adminui.mapsettings.php:493
+msgid "Norway"
+msgstr "ノルウェー"
+
+#: include/class.adminui.mapsettings.php:494
+msgid "Poland"
+msgstr "ポーランド"
+
+#: include/class.adminui.mapsettings.php:495
+msgid "Portugal"
+msgstr "ポルトガル"
+
+#: include/class.adminui.mapsettings.php:496
+msgid "Russia"
+msgstr "ロシア"
+
+#: include/class.adminui.mapsettings.php:497
+msgid "Singapore"
+msgstr "シンガポール"
+
+#: include/class.adminui.mapsettings.php:498
+msgid "South Africa"
+msgstr "南アフリカ"
+
+#: include/class.adminui.mapsettings.php:499
+msgid "South Korea"
+msgstr "韓国"
+
+#: include/class.adminui.mapsettings.php:500
+msgid "Spain"
+msgstr "スペイン"
+
+#: include/class.adminui.mapsettings.php:501
+msgid "Sweden"
+msgstr "スウェーデン"
+
+#: include/class.adminui.mapsettings.php:502
+msgid "Switzerland"
+msgstr "スイス"
+
+#: include/class.adminui.mapsettings.php:503
+msgid "Taiwan"
+msgstr "台湾"
+
+#: include/class.adminui.mapsettings.php:504
+msgid "United Arab Emirates"
+msgstr "アラブ首長国連邦"
+
+#: include/class.adminui.mapsettings.php:505
+msgid "United Kingdom"
+msgstr "U.K."
+
+#: include/class.adminui.mapsettings.php:520
+msgid "English"
+msgstr "英語"
+
+#: include/class.adminui.mapsettings.php:521
+msgid "Arabic"
+msgstr "アラビア語"
+
+#: include/class.adminui.mapsettings.php:522
+msgid "Basque"
+msgstr "バスク語"
+
+#: include/class.adminui.mapsettings.php:523
+msgid "Bulgarian"
+msgstr "ブルガリア語"
+
+#: include/class.adminui.mapsettings.php:524
+msgid "Bengali"
+msgstr "ベンガル語"
+
+#: include/class.adminui.mapsettings.php:525
+msgid "Catalan"
+msgstr "カタルーニャ語"
+
+#: include/class.adminui.mapsettings.php:526
+msgid "Czech"
+msgstr "チェコ語"
+
+#: include/class.adminui.mapsettings.php:527
+msgid "Danish"
+msgstr "デンマーク語"
+
+#: include/class.adminui.mapsettings.php:528
+msgid "German"
+msgstr "ドイツ語"
+
+#: include/class.adminui.mapsettings.php:529
+msgid "Greek"
+msgstr "ギリシア語"
+
+#: include/class.adminui.mapsettings.php:530
+msgid "English (Australian)"
+msgstr "英語（オーストラリア）"
+
+#: include/class.adminui.mapsettings.php:531
+msgid "English (Great Britain)"
+msgstr "英語（イギリス）"
+
+#: include/class.adminui.mapsettings.php:532
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: include/class.adminui.mapsettings.php:533
+msgid "Farsi"
+msgstr "ペルシア語"
+
+#: include/class.adminui.mapsettings.php:534
+msgid "Finnish"
+msgstr "フィンランド語"
+
+#: include/class.adminui.mapsettings.php:535
+msgid "Filipino"
+msgstr "フィリピン語"
+
+#: include/class.adminui.mapsettings.php:536
+msgid "French"
+msgstr "フランス語"
+
+#: include/class.adminui.mapsettings.php:537
+msgid "Galician"
+msgstr "ガリシア語"
+
+#: include/class.adminui.mapsettings.php:538
+msgid "Gujarati"
+msgstr "グジャラート語"
+
+#: include/class.adminui.mapsettings.php:539
+msgid "Hindi"
+msgstr "ヒンディー語"
+
+#: include/class.adminui.mapsettings.php:540
+msgid "Croatian"
+msgstr "クロアチア語"
+
+#: include/class.adminui.mapsettings.php:541
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+#: include/class.adminui.mapsettings.php:542
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+#: include/class.adminui.mapsettings.php:543
+msgid "Italian"
+msgstr "イタリア語"
+
+#: include/class.adminui.mapsettings.php:544
+msgid "Hebrew"
+msgstr "ヘブライ語"
+
+#: include/class.adminui.mapsettings.php:545
+msgid "Japanese"
+msgstr "日本語"
+
+#: include/class.adminui.mapsettings.php:546
+msgid "Kannada"
+msgstr "カンナダ語"
+
+#: include/class.adminui.mapsettings.php:547
+msgid "Korean"
+msgstr "韓国語"
+
+#: include/class.adminui.mapsettings.php:548
+msgid "Lithuanian"
+msgstr "リトアニア語"
+
+#: include/class.adminui.mapsettings.php:549
+msgid "Latvian"
+msgstr "ラトビア語"
+
+#: include/class.adminui.mapsettings.php:550
+msgid "Malayalam"
+msgstr "マラヤーラム語"
+
+#: include/class.adminui.mapsettings.php:551
+msgid "Marathi"
+msgstr "マラーティー語"
+
+#: include/class.adminui.mapsettings.php:552
+msgid "Dutch"
+msgstr "オランダ語"
+
+#: include/class.adminui.mapsettings.php:553
+msgid "Norwegian"
+msgstr "ノルウェー語"
+
+#: include/class.adminui.mapsettings.php:554
+msgid "Polish"
+msgstr "ポーランド語"
+
+#: include/class.adminui.mapsettings.php:555
+msgid "Portuguese"
+msgstr "ポルトガル語"
+
+#: include/class.adminui.mapsettings.php:556
+msgid "Portuguese (Brazil)"
+msgstr "ポルトガル語（ブラジル）"
+
+#: include/class.adminui.mapsettings.php:557
+msgid "Portuguese (Portugal)"
+msgstr "ポルトガル語（ポルトガル）"
+
+#: include/class.adminui.mapsettings.php:558
+msgid "Romanian"
+msgstr "ルーマニア語"
+
+#: include/class.adminui.mapsettings.php:559
+msgid "Russian"
+msgstr "ロシア語"
+
+#: include/class.adminui.mapsettings.php:560
+msgid "Slovak"
+msgstr "スロバキア語"
+
+#: include/class.adminui.mapsettings.php:561
+msgid "Slovenian"
+msgstr "スロベニア語"
+
+#: include/class.adminui.mapsettings.php:562
+msgid "Serbian"
+msgstr "セルビア語"
+
+#: include/class.adminui.mapsettings.php:563
+msgid "Swedish"
+msgstr "スウェーデン語"
+
+#: include/class.adminui.mapsettings.php:564
+msgid "Tagalog"
+msgstr "タガログ語"
+
+#: include/class.adminui.mapsettings.php:565
+msgid "Tamil"
+msgstr "タミル語"
+
+#: include/class.adminui.mapsettings.php:566
+msgid "Telugu"
+msgstr "テルグ語"
+
+#: include/class.adminui.mapsettings.php:567
+msgid "Thai"
+msgstr "タイ語"
+
+#: include/class.adminui.mapsettings.php:568
+msgid "Turkish"
+msgstr "トルコ語"
+
+#: include/class.adminui.mapsettings.php:569
+msgid "Ukrainian"
+msgstr "ウクライナ語"
+
+#: include/class.adminui.mapsettings.php:570
+msgid "Vietnamese"
+msgstr "ベトナム語"
+
+#: include/class.adminui.mapsettings.php:571
+msgid "Chinese (Simplified)"
+msgstr "中国語（簡体字）"
+
+#: include/class.adminui.mapsettings.php:572
+msgid "Chinese (Traditional)"
+msgstr "中国語（繁体字）"
+
+#: include/class.adminui.mapsettings.php:623
+msgid "Successful Update"
+msgstr "更新に成功しました"
+
+#: include/class.adminui.mapsettings.php:659
+#, php-format
+msgid "Your home marker %s cannot be located, please select a new one."
+msgstr ""
+"ホームのアイコン「%s」は見つかりませんので、別のアイコンを選んでください。"
+
+#: include/class.adminui.mapsettings.php:669
+#, php-format
+msgid "Your destination marker %s cannot be located, please select a new one."
+msgstr ""
+"目的地のアイコン「%s」は見つかりませんので、別のアイコンを選んでください。"
+
+#: include/class.adminui.mapsettings.php:722
+msgid "Search Results"
+msgstr "検索の結果"
+
+#: include/class.adminui.mapsettings.php:725
+msgid "Max Search Results"
+msgstr "検索結果の最大限"
+
+#: include/class.adminui.mapsettings.php:726
+msgid "How many locations does a search return? Default is 25."
+msgstr "多くとも、検索は何個のロケーションを出しますか。標準値は 25 です。"
+
+#: include/class.adminui.mapsettings.php:730
+msgid "Immediately Show Locations"
+msgstr "最初にロケーションを表示"
+
+#: include/class.adminui.mapsettings.php:731
+msgid ""
+"Display locations as soon as map loads, based on map center and default "
+"radius. "
+msgstr ""
+"地図を最初に表示したら、地図の中心と半径の設定によるのロケーションを表示しま"
+"す"
+
+#: include/class.adminui.mapsettings.php:738
+msgid "Number To Show Initially"
+msgstr "最初に表示する数"
+
+#: include/class.adminui.mapsettings.php:739
+msgid ""
+"How many locations should be shown when Immediately Show Locations is "
+"checked.  Recommended maximum is 50."
+msgstr ""
+"「最初にロケーションを表示」が設定されている場合、何個のロケーションを表示し"
+"ますか。推薦の最高数は50です。"
+
+#: include/class.adminui.mapsettings.php:744
+msgid "Radius To Search Initially"
+msgstr "最初に表示する直径"
+
+#: include/class.adminui.mapsettings.php:745
+msgid ""
+"What should immediately show locations use as the default search radius? "
+"Leave empty to use map radius default or set to a large number like 25000 to "
+"search everywhere."
+msgstr ""
+"「最初にロケーションを表示」が設定されている場合、どんな直径で検索しますか。"
+"地図設定の直径を使うには、空白に置いてください。すべてを検索するには、すごく"
+"大きい数（例：25000）に設定してください。"
+
+#: include/class.adminui.mapsettings.php:747
+#, php-format
+msgid ""
+"Can be set with <a href=\"%s\" target=\"csa\">shortcode attribute "
+"initial_radius</a> if Force Load JavaScript is turned off."
+msgstr ""
+"「Javascriptのロードを強制する」は無効なら、<a href=\"%s\" target=\"csa\">"
+"ショートコードの属性 initial_radius</a>で設定できます。"
+
+#: include/class.adminui.mapsettings.php:763
+#: include/class.adminui.mapsettings.php:822
+msgid "Results Labels"
+msgstr "結果のラベル"
+
+#: include/class.adminui.mapsettings.php:766
+msgid "Website URL"
+msgstr "ウェブサイトURL"
+
+#: include/class.adminui.mapsettings.php:767
+msgid "Search results text for the website link."
+msgstr "検索結果に、ウエブサイトのリンクに表示するテキスト"
+
+#: include/class.adminui.mapsettings.php:774
+msgid "Hours label."
+msgstr "営業時間のラベル"
+
+#: include/class.adminui.mapsettings.php:781
+msgid "Phone label."
+msgstr "電話番号のラベル"
+
+#: include/class.adminui.mapsettings.php:788
+msgid "Fax label."
+msgstr "Faxのラベル"
+
+#: include/class.adminui.mapsettings.php:794
+msgid "Directions"
+msgstr "ルート・乗換案内"
+
+#: include/class.adminui.mapsettings.php:795
+msgid "Directions label."
+msgstr "ルート・乗換案内のラベル"
+
+#: include/class.adminui.mapsettings.php:801
+msgid "Instructions"
+msgstr "利用方法案内"
+
+#: include/class.adminui.mapsettings.php:802
+msgid ""
+"Search results instructions shown if immediately show locations is not "
+"selected."
+msgstr ""
+"「最初にロケーションを表示」が設定されていない場合、検索結果の説明は表示され"
+"ます。"
+
+#: include/class.adminui.mapsettings.php:804
+msgid "Enter an address or zip code and click the find locations button."
+msgstr ""
+"住所の部分や郵便番号を入力してから、「ロケーションを検索」ボタンをクリックし"
+"てください。"
+
+#: include/class.adminui.mapsettings.php:816
+msgid "Results Features"
+msgstr "結果の形式"
+
+#: include/class.adminui.mapsettings.php:832
+msgid "Results"
+msgstr "結果"
+
+#: include/class.adminui.mapsettings.php:849
+msgid "Search Features"
+msgstr "検索の機能"
+
+#: include/class.adminui.mapsettings.php:854
+msgid "Radii Options"
+msgstr "半径オプション"
+
+#: include/class.adminui.mapsettings.php:855
+msgid ""
+"Separate each number with a comma \",\". Put parenthesis \"( )\" around the "
+"default."
+msgstr "数と数を「,」(comma)で分けて、デフォルトを「( )」で囲んでください。"
+
+#: include/class.adminui.mapsettings.php:861
+msgid "Distance Unit"
+msgstr "距離の単位"
+
+#: include/class.adminui.mapsettings.php:865
+msgid "Kilometers"
+msgstr "Km(キロメーター)"
+
+#: include/class.adminui.mapsettings.php:865
+#: include/class.ajax.mobilelistener.php:162 include/class.ajaxhandler.php:206
+msgid "km"
+msgstr "km"
+
+#: include/class.adminui.mapsettings.php:866
+msgid "Miles"
+msgstr "マイル"
+
+#: include/class.adminui.mapsettings.php:866
+#: include/class.ajax.mobilelistener.php:162
+#: include/class.ajax.mobilelistener.php:244 include/class.ajaxhandler.php:206
+#: include/class.ui.php:607 include/class.ui.php:679
+msgid "miles"
+msgstr "マイル"
+
+#: include/class.adminui.mapsettings.php:876
+msgid "Use Find Location Text Button"
+msgstr "「ロケーションを検索」テキストのボタンを使う"
+
+#: include/class.adminui.mapsettings.php:877
+msgid ""
+"Use a standard text button for \"Find Locations\" instead of the provided "
+"button images."
+msgstr ""
+"提供されたボタンのイメージファイルの代わりに、「ロケーションを検索」のため"
+"に、一般テキストのボタンを表示します。"
+
+#: include/class.adminui.mapsettings.php:893
+msgid "Search form address label."
+msgstr "検索フォームの住所入力のラベル"
+
+#: include/class.adminui.mapsettings.php:895
+msgid "Address / Zip"
+msgstr "住所／郵便番号"
+
+#: include/class.adminui.mapsettings.php:899
+msgid "Radius"
+msgstr "半径"
+
+#: include/class.adminui.mapsettings.php:900
+msgid "Search form radius label."
+msgstr "検索フォームにおける半径プルダウンのラベル"
+
+#: include/class.adminui.mapsettings.php:902 include/class.ui.php:261
+msgid "Within"
+msgstr "距離"
+
+#: include/class.adminui.mapsettings.php:910
+msgid "Search Labels"
+msgstr "検索フォームのラベル"
+
+#: include/class.adminui.mapsettings.php:917
+msgid "Search Form"
+msgstr "検索フォーム"
+
+#: include/class.adminui.php:94
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: include/class.adminui.php:111
+msgid "How to Use"
+msgstr "使い方"
+
+#: include/class.adminui.php:319
+#, php-format
+msgid "Could not read icon directory %s"
+msgstr "アイコンのフォルダー %s を読めませんでした。"
+
+#: include/class.ajax.mobilelistener.php:106
+msgid "no latitude passed"
+msgstr "緯度が渡されなかった"
+
+#: include/class.ajax.mobilelistener.php:110
+msgid "no longitude passed"
+msgstr "経度が渡されなかった"
+
+#: include/class.ajaxhandler.php:295
+msgid "renderJSON_Response did not get an array()"
+msgstr "renderJSON_Responseに渡されたのは arrayではなかった"
+
+#: include/class.location.php:252
+msgid "Could not create or update the custom page for this location."
+msgstr "このロケーションのためのカスタムページを作成/変更できませんでした。"
+
+#: include/class.location.php:431
+#, php-format
+msgid "Could not update %s, location id %d."
+msgstr "ロケーション %s（ID %d）を更新できませんでした。"
+
+#: include/class.location.php:442
+#, php-format
+msgid "Could not add %s as a new location"
+msgstr "新規ロケーション %s を追加できませんでした。"
+
+#: include/class.ui.php:495
+#, php-format
+msgid "%s is not ready"
+msgstr "%s は準備中です。"
+
+#: include/class.ui.php:835
+msgid "Any"
+msgstr "どれでも"
+
+#: WPCSL-generic/classes/CSL-license_class.php:200
+msgid ""
+"You have not provided a valid license key for this plugin. Until you do so, "
+"it will only display content for Admin users."
+msgstr ""
+"このプラグインには、適切なライセンスキーが入力されていませんので、Adminのユー"
+"ザのみがコンテンツが見えます。"
+
+#: WPCSL-generic/classes/CSL-notifications_class.php:89
+msgid "needs attention"
+msgstr "は管理が必要です"
+
+#: WPCSL-generic/classes/CSL-notifications_class.php:128
+msgid "wants you to know"
+msgstr "からのお知らせ"
+
+#: WPCSL-generic/classes/CSL-plugin.php:507
+#: WPCSL-generic/classes/CSL-plugin.php:508
+msgid "Support"
+msgstr "サポート"
+
+#: WPCSL-generic/classes/CSL-plugin.php:511
+msgid "Purchase"
+msgstr "購入"
+
+#: WPCSL-generic/classes/CSL-plugin.php:512
+msgid "Buy Now"
+msgstr "すぐ購入"
+
+#: WPCSL-generic/classes/CSL-plugin.php:639
+#, php-format
+msgid "%s has been deactivated."
+msgstr "%s は停止されました。"
+
+#: WPCSL-generic/classes/CSL-plugin.php:645
+#, php-format
+msgid "You have %s version %s."
+msgstr "この %s のバージョンは %s です。"
+
+#: WPCSL-generic/classes/CSL-plugin.php:651
+#, php-format
+msgid "You need version %s or greater for this version of %s."
+msgstr "%2$s のこのバージョンのために、バージョン %1$s 以上が必要です。"
+
+#: WPCSL-generic/classes/CSL-plugin.php:657
+#, php-format
+msgid "Please install an older version of %s or upgrade."
+msgstr ""
+"%s のもっと古いバージョンをインストールする、またはアップグレードしてくださ"
+"い。"
+
+#: WPCSL-generic/classes/CSL-plugin.php:662
+#, php-format
+msgid ""
+"Upgrading major versions of %s requires paid upgrades to all related add-on "
+"packs."
+msgstr ""
+"%s のメージャーアップグレードの際、アドインパックの有料アップグレードが必要で"
+"す。"
+
+#: WPCSL-generic/classes/CSL-settings_class.php:48
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: WPCSL-generic/classes/CSL-settings_class.php:331
+#, php-format
+msgid "Program Error: section <em>%s</em> not defined."
+msgstr "プログラムのエラー：section <em>%s</em> not defined."
+
+#: WPCSL-generic/classes/CSL-themes_class.php:82
+#, php-format
+msgid ""
+"The theme directory:<br/>%s<br/>is missing. Create it to enable themes and "
+"get rid of this message."
+msgstr ""
+"下記のテーマフォルダーは存在していません：<br/>%s<br/>テーマを有効するには、"
+"このフォルダーを作成してください。"
+
+#: WPCSL-generic/classes/CSL-themes_class.php:150
+msgid "Select A Theme"
+msgstr "テーマの選択"
+
+#: WPCSL-generic/classes/CSL-themes_class.php:156
+#, php-format
+msgid ""
+"How should the plugin UI elements look?  Check the <a href=\"%s\" target="
+"\"CSA\">documentation</a> for more info."
+msgstr ""
+"プラグインのインターフェースにある部分の外観です。詳細は<a href=\"%s\" "
+"target=\"CSA\">ドキュメンテーション（英語）</a>を参照してください。"
+
+#: WPCSL-generic/classes/CSL-themes_class.php:209
+msgid "No description has been set for this theme."
+msgstr "このテーマに説明は設定されていません。"
+
+#: WPCSL-generic/classes/CSL-themes_class.php:213
+msgid "Works best with the following add-on packs enabled: "
+msgstr "下記のアドオンパックが有効されたら、一番よく働きます。"
+
+#~ msgid "<p><strong><a href=\"%s\">%s</a> %s: </strong>"
+#~ msgstr "<p><strong><a href=\"%s\">%s</a> %s: </strong>"
+
+#~ msgid "Address #%d : %s <font color=red>failed to geocode</font>.<br/>\n"
+#~ msgstr ""
+#~ "住所 #%d： %sは <font color=red>geocodeの取得を失敗しました</font>.<br/>\n"
+
+#~ msgid "Marthi"
+#~ msgstr "マラーティー語"
+
+#~ msgid "Taglog"
+#~ msgstr "タガログ語"
+
+#~ msgid "search provided by"
+#~ msgstr "検索機能は："
+
+#~ msgid "Enter Your Address or Zip Code Above."
+#~ msgstr "あなたの住所もしくは郵便番号を入力ください。"
+
+#, fuzzy
+#~ msgid ""
+#~ "How many times should we try to set the latitude/longitude for a new "
+#~ "address. Higher numbers mean slower bulk uploads (<a href=\"%s\">a Pro "
+#~ "Pack feature</a>), lower numbers makes it more likely the location will "
+#~ "not be set during bulk uploads."
+#~ msgstr ""
+#~ "新しい住所のために何回まで緯度と経度の設定を再試行しましょうか。一括アップ"
+#~ "ロード（<a href=\"%s\">プロパックの機能</a>）の際、回数は高いならプロセス"
+#~ "は遅くなりますが、回数は低いなら位置は設定されない可能性が高くなります。"
+
+#~ msgid "Only required for sites with more than 25,000 searches per days."
+#~ msgstr "一日に2万5千回以上の検索が行われるサイトのみに必要です。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Visit <a href=\"http://code.google.com/apis/console/\" target=\"newinfo"
+#~ "\">the Google API Console</a> to get your key."
+#~ msgstr ""
+#~ "キーを受け取るには、<a href=\"http://code.google.com/apis/console/\" "
+#~ "target=\"newinfo\">Google API Console</a>に行ってください。"
+
+#~ msgid "Over Query Limit. Received status %s."
+#~ msgstr "取得期限を超えました。ステータス「%s」が出ました。"
+
+#, fuzzy
+#~ msgid "Total attempts %d, waited up to %4.2f seconds between request."
+#~ msgstr "%d 回トライしました。その間、%4.2f 秒まで待っていました。"
+
+#~ msgid " - Map Settings"
+#~ msgstr " - 地図設定"
+
+#~ msgid "DEBUG: No driver found."
+#~ msgstr "デバッグ：ドライブが見つかりません。"
+
+#~ msgid "DEBUG: could not locate driver:"
+#~ msgstr "DEBUG: ドライバーを見つかりませんでした:"
+
+#~ msgid ""
+#~ "Your PHP settings have disabled exec(), your locale list cannot be "
+#~ "determined."
+#~ msgstr ""
+#~ "PHPの設定でexec()が使えません。その為、地域リストを出すことが出来ません。"
+
+#~ msgid "DEBUG: Not OK To Show"
+#~ msgstr "デバッグ：表示できません。"
+
+#~ msgid "No products found"
+#~ msgstr "製品が見つかりません"
+
+#~ msgid "The following optional add-ons are available"
+#~ msgstr "以下の追加アドオンが利用可能です。"
+
+#~ msgid "The CSV file has too many fields."
+#~ msgstr "CSVファイルのフィールドが多すぎます。"
+
+#~ msgid "locations added succesfully."
+#~ msgstr "ロケーションの追加が成功しました。"
+
+#~ msgid "File could not be saved, check the plugin directory permissions:"
+#~ msgstr ""
+#~ "ファイルが保存できませんでした。プラグインのディレクトリパーミッションを"
+#~ "チェックしてください。"
+
+#~ msgid "Uploaded file needs to be in CSV format."
+#~ msgstr "アップロードするファイルはCSV形式である必要があります。"
+
+#~ msgid "These settings affect how the reporting system behaves. "
+#~ msgstr "これらの設定はレポートシステムの振る舞いに影響を与えます。?"
+
+#~ msgid "Could not add/update address.  Error: %s."
+#~ msgstr "住所の登録及び更新が出来ませんでした。エラー：%s"
+
+#~ msgid "Add Locations"
+#~ msgstr "ロケーションの追加"
+
+#~ msgid "Manage Locations"
+#~ msgstr "ロケーションの管理"
+
+#~ msgid "Reports"
+#~ msgstr "レポート"
+
+#~ msgid "Satellite"
+#~ msgstr "サテライト"
+
+#~ msgid "Hybrid"
+#~ msgstr "ハイブリッド"
+
+#~ msgid ""
+#~ "Please re-select your <b>Home Icon</b> and <b>Destination Icon</b> below, "
+#~ "so that they show up properly on your map."
+#~ msgstr ""
+#~ "以下より<b>ホームアイコン</b>と<b>目的地アイコン</b>を再度選択してくださ"
+#~ "い。そうすれば、地図上に正しく表示されます。"
+
+#~ msgid "Plugin Info"
+#~ msgstr "プラグイン情報"
+
+#~ msgid "total"
+#~ msgstr "合計"
+
+#~ msgid "Previous"
+#~ msgstr "前へ"
+
+#~ msgid "Next"
+#~ msgstr "次へ"
+
+#~ msgid "Enter An Address"
+#~ msgstr "住所を入力してください。"
+
+#~ msgid "Name of Location"
+#~ msgstr "ロケーションの名前"
+
+#~ msgid "Tags"
+#~ msgstr "タグ"
+
+#~ msgid "URL"
+#~ msgstr "サイトURL"
+
+#~ msgid "email"
+#~ msgstr "メールアドレス"
+
+#~ msgid "Subject"
+#~ msgstr "件名"
+
+#~ msgid "Message"
+#~ msgstr "メッセージ"
+
+#~ msgid "Switch to normal view?"
+#~ msgstr "通常（簡易）表示に変えますか？"
+
+#~ msgid "Normal View"
+#~ msgstr "通常（簡易）表示"
+
+#~ msgid "Switch to expanded view?"
+#~ msgstr "詳細表示に変えますか？"
+
+#~ msgid "Location Actions"
+#~ msgstr "ロケーション操作"
+
+#~ msgid "Delete selected?"
+#~ msgstr "選択ロケーションを削除して良いですか？"
+
+#~ msgid "Tag Selected"
+#~ msgstr "タグを選択"
+
+#~ msgid "Remove tag from selected?"
+#~ msgstr "選択されているタグを削除しますか？"
+
+#~ msgid "Untag Selected"
+#~ msgstr "タグ無しを選択"
+
+#~ msgid "Show "
+#~ msgstr "見せる?"
+
+#~ msgid "Location Filters"
+#~ msgstr "ロケーションフィルター"
+
+#~ msgid "City Pulldown"
+#~ msgstr "都市のプルダウン"
+
+#~ msgid "Labels"
+#~ msgstr "ラベル"
+
+#~ msgid "Address Input"
+#~ msgstr "住所入力"
+
+#~ msgid "Radius Dropdown"
+#~ msgstr "半径をドロップダウン選択"
+
+#~ msgid "Label for website URL in search results."
+#~ msgstr "検索結果のウェブサイトURLのラベル"
+
+#~ msgid "Instruction text when map is first displayed."
+#~ msgstr "地図が最初に表示された時の説明。"
+
+#~ msgid "Enter your Google API key to enable location management."
+#~ msgstr "ロケーションの管理が出来るGoogle API keyを入力ください。"
+
+#~ msgid ""
+#~ "Enter a number to limit how many results are returned during a search. "
+#~ "The default is 25."
+#~ msgstr "検索時の表示制限数を入力してください。初期設定は25となっています。"
+
+#~ msgid "Dimensions"
+#~ msgstr "大きさ"
+
+#~ msgid "Icons"
+#~ msgstr "表示アイコン"
+
+#~ msgid "Home Icon"
+#~ msgstr "ホームアイコン"
+
+#~ msgid "Select Your Location"
+#~ msgstr "ロケーションを選択してください"
+
+#~ msgid "Select Character Encoding"
+#~ msgstr "文字エンコードを選んでください"
+
+#~ msgid "Show City Pulldown"
+#~ msgstr "都市のプルダウンを表示"
+
+#~ msgid "Store Locator Plus - Manage Locations"
+#~ msgstr "Store Locator Plus - ロケーションの管理"
+
+#~ msgid "Google API Key needs to be set to activate this feature."
+#~ msgstr "この機能を使うにはGoogle API Keyが必要です。"
+
+#~ msgid "Street"
+#~ msgstr "住所詳細1"
+
+#~ msgid "Street2"
+#~ msgstr "住所詳細2"
+
+#~ msgid "Tags (seperate with commas)"
+#~ msgstr "タグ（コンマで区切る）"
+
+#~ msgid "No Locations Showing for this Search of "
+#~ msgstr "当てはまるロケーションが検索されませんでした。?"
+
+#~ msgid "No Locations Currently in Database"
+#~ msgstr "データー上にロケーションが全く登録されていません。"
+
+#~ msgid "Use Email Form"
+#~ msgstr "メールフォームを使う"
+
+#~ msgid "Disable Scroll Wheel"
+#~ msgstr "スクロールホイールの利用不可"
+
+#~ msgid "Hide map scale"
+#~ msgstr "地図の縮尺を隠す"
+
+#~ msgid "Turn the map scale off."
+#~ msgstr "地図の縮尺を消します。"
+
+#~ msgid "Hide map type"
+#~ msgstr "地図タイプを隠す"
+
+#~ msgid "Turn the map type selector off."
+#~ msgstr "地図タイプの選択を消します。"
+
+#~ msgid "Hide radius selection"
+#~ msgstr "半径選択を隠す"
+
+#~ msgid "Hide address entry box"
+#~ msgstr "住所入力ボックスを隠す"
+
+#~ msgid "Hides the address entry box from the user."
+#~ msgstr "ユーザーから住所入力ボックスを隠す"
+
+#~ msgid "Disable search"
+#~ msgstr "検索不可"
+
+#~ msgid "Show State Pulldown"
+#~ msgstr "州のプルダウン表示"
+
+#~ msgid "Show Country Pulldown"
+#~ msgstr "国のプルダウン表示"
+
+#~ msgid "Tag Input"
+#~ msgstr "タグ入力"
+
+#~ msgid "Start Date: "
+#~ msgstr "開始日時：?"
+
+#~ msgid "End Date: "
+#~ msgstr "終了日時：?"
+
+#~ msgid "Total searches: <strong>%s</strong>"
+#~ msgstr "合計検索数：<strong>%s</strong>"
+
+#~ msgid "Total results: <strong>%s</strong>"
+#~ msgstr "合計結果：<strong>%s</strong>"
+
+#~ msgid "Summary"
+#~ msgstr "要約（サマリー）"
+
+#~ msgid "Total"
+#~ msgstr "合計"
+
+#~ msgid "Export To CSV"
+#~ msgstr "CSVエクスポート"
+
+#~ msgid "Export all records"
+#~ msgstr "全てエクスポート"
+
+#~ msgid "Details"
+#~ msgstr "詳細"

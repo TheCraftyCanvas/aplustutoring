@@ -1,0 +1,36 @@
+.w100 {width:100%}
+.border{border:1px solid #ccc;}
+.selection_criteria {float:left;width:97%;margin:5px 5px 5px 15px}
+.popupmain { float:left;width:100%; border:solid 1px #636262; margin:0 auto; background:#fff;}
+.popupmain .req_head { font-size:20px; font-weight:bold; line-height:30px; width:98%; padding-left:20px; text-align:center;}
+.popupmain .formfield { width:99%; padding:6px; float:left;}
+.popupmain .formfield p.row1 { width:100%; float:left; /*margin-bottom:8px;*/}
+.popupmain .formfield p.row1 label,
+.popupmain .formfield div.row1 label
+{ width:20%; float:left; font-weight:bold; font-size:14px; text-align:right; margin-right:15px;cursor:default;}
+.popupmain .formfield p.row1 em { width:77%; float:left; font-size:12px; font-family:Arial, Verdana;}
+.popupmain .formfield p.row1 em img{cursor: pointer }
+.popupmain .formfield p.row1 em kbd { float:left; width:100%; margin-bottom:4px;}
+.popupmain .formfield p.row1 em kbd i,
+.popupmain .formfield div.row1 em kbd i { float:left; margin-right:5px; width:auto;}
+.popupmain .formfield p.row1 em kbd small,
+.popupmain .formfield div.row1 em kbd small { float:left; width:28%; margin-right:10px; font-size:15px; font-family:Arial; font-style:normal;}
+.border_none { border:none;}
+.popupmain .formfield p.row1 span {padding-top:10px;}
+
+.section_content_parent {float:left; width:100%; padding-bottom:5px;}
+.section_content_parent b {float:left; width:140px; padding-left:5px; font-weight:normal;}
+.section_content_parent span {float:left; width:500px;}
+.section_content_selection_parent { width:77%; float:left;}
+.section_content_response { width:100%; float:left; padding-top:10px;}
+.section_content_selection_parent strong {font-weight:normal;float:left; width:99%; padding:2px 4px; margin:3px 0; border:solid 1px #ccc; background:#F1F1F1;}
+.section_content_selection_parent strong dfn {float:left; font-style:normal; color:#21759B; padding-top:3px;}
+.section_content_selection_parent strong del {float:right; text-decoration:none!important;}
+.section_content_child {float:left; border:solid 1px #ccc; width:99%;}
+.section_content_child_overflow {float:left; overflow:auto; height:102px; width:100%;}
+.section_content_cat_parent {float:right; width:640px; padding-right:20px; margin:10px 0 5px; }
+.section_content_cat_parent i {float:left;font-style:normal; padding-right:5px; }
+.section_content_cat_parent del {float:left;text-decoration:none; width:500px; }
+
+.hover_text_style {color:white;font-family:Arial;font-size:15px;float:right;}
+#all_sections, #categories_list {width:20%}
