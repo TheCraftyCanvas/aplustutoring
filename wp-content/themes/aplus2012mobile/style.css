@@ -1,0 +1,851 @@
+/*
+Theme Name: aplus2012mobile
+Description: Mobile friendly theme based on jQueryMobile framework. Supports default widgets.
+Author: Anson Han @thecraftycanvas
+Author URI: http://www.thecraftycanvas.com/
+*/
+
+/*
+Google Fonts:
+font-family: 'Gudea', sans-serif;
+*/
+@font-face {
+    font-family: 'Gudea';
+    src: url('fonts/Gudea-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gudea';
+    src: url('fonts/Gudea-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Gudea';
+    src: url('fonts/Gudea-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+  padding:10px 0px;
+  font-family: 'Gudea', sans-serif;
+}
+
+
+/* header */
+#header {
+  text-align:center;
+}
+#branding {
+  background:#ffffff;
+  margin:10px 0 0 0;
+  padding:10px 0 0 0;
+  position:relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align:left;
+}
+#logo {
+display: inline-block;
+clear:none;
+padding-left:10px;
+}
+.mobile-logo {
+  max-width: 200px;
+}
+#one-to-one-instruction-ribbon
+{
+display: inline-block;
+clear:none;
+}
+#one-to-one-instruction-ribbon img {
+display: inline-block;
+width: 120px;
+position:absolute;
+top:-10px;
+right:5px;
+}
+
+
+.callout-phone-number a, .callout-phone-number a:visited, .callout-phone-number a:active {
+clear:both;
+color: white !important;
+text-decoration: none;
+font-family: 'Maven Pro', sans-serif;
+font-size: 32px;
+font-weight: 600;
+text-shadow: 2px 3px black;
+}
+.callout-phone-number a:hover {
+color: #999;
+text-shadow: 2px 3px black;
+}
+
+
+/* homepage specific jqm overrides */
+.homepage-content.ui-content {
+padding:10px 0;
+}
+.ui-body-c .featured-content-callout p, .ui-body-c .featured-content-callout .ui-link:visited {
+text-shadow:none;
+color:#fff;
+}
+.featured-content-callout .ui-collapsible-content {
+border-left: 2px solid #EEE;
+border-right: 2px solid #EEE;
+}
+.featured-content-callout.ui-collapsible-set {
+border-bottom: 2px solid #EEE;
+border-radius:10px;
+}
+
+/* callout content on homepage */
+
+#service-callout-banner {
+  width:94%;
+  margin:auto;
+  clear:both;
+  display:inline-block;
+  text-align:center;
+  background:#cc0000;
+  border-radius:15px;
+}
+.featured-content-banner {
+  clear:both;
+  display:inline-block;
+  text-align:center;
+  padding:10px 0;
+}
+.featured-content-banner .callout-images {
+  padding:0;
+  display:inline-block;
+  margin:0 auto;
+  width:95%;
+}
+.featured-content-banner .callout-image {
+  border-radius:10px;
+  width:24%;
+  margin-right:1%;
+  float:left;
+}
+.featured-content-banner .callout-image img {
+  width:100%;
+}
+.featured-content-banner .callout-intro {
+  color:#ffffff;
+  text-shadow: 0 1px 0 #999999;
+  font-size:larger;
+}
+
+
+#service-callout-banner .ui-collapsible-set {
+  margin: 0 auto .5em auto;
+  width:94%;
+
+}
+
+
+/* featured testimonial on homepage */
+.homepage-content #featured-testimonial {
+  width:305px;
+  clear:both;
+  display:inline-block;
+  text-align:center;
+  background:url('images-aplus/featured-testimonial.png') no-repeat top left;
+  border-radius:15px;
+  margin:10px auto;
+  height:113px;
+position: relative;
+color: white;
+z-index: 99999;
+text-shadow:0 0 0;
+}
+  .featured-testimonial-caption {
+    width:59.5%;
+    position: absolute;
+    top: 10%;
+    left: 12px;
+  }
+
+.homepage-content #scoreIncrease {
+text-align:left;
+clear:both;
+}
+.homepage-content #testimonialCredit {
+text-align:right;
+clear:both;
+font-size:12px;;
+font-style: italic;
+padding-top:5px;
+}
+.homepage-content #clients-link-faux {
+clear:both;
+text-align: center;
+background: #2F3938;
+border-radius: 5px;
+font-size:10px;
+font-family: 'Maven Pro', sans-serif;
+padding:3px 5px;
+display:inline-block;
+margin-top:3px;
+}
+
+
+
+
+.homepage-content #upcoming-free-exams {
+  width:94%;
+  margin:auto;
+  clear:both;
+  display:inline-block;
+  text-align:center;
+  border-radius:15px;
+  text-shadow:none;
+}
+#proctored-exam-description.ui-collapsible {
+  width:94%;
+  margin:10px auto;
+}
+#proctored-exam-description.ui-collapsible .ui-collapsible-heading a .ui-btn-text{
+  font-size:85%;
+  white-space: wrap;
+}
+
+#search_table #search_table_body #address_search #addy_in_radius label.ui-select {
+  padding-top:20px;
+}
+#search_table #search_table_body #address_search #addy_in_radius div.ui-select {
+  width: 240px;
+}
+#search_table #search_table_body #address_search #addy_in_radius .ui-select #radiusSelect{
+  padding: 3px 8px;
+}
+#search_table #search_table_body #address_search #radius_in_submit {
+  padding-top:20px;
+}
+
+/* footer */
+
+#footer {
+  text-align:center;
+  font-size:12px;
+  font-weight:normal;
+  padding: 0 0 10px 0;
+  width:98%;
+  max-width:480px;
+  margin:0 auto;
+  position:relative;
+}
+
+#footer-left {
+width:54%;
+}
+#footer-right {
+width:46%;
+}
+
+#footer-nav .ui-btn {
+width:100%;
+display:inline-block;
+margin: 0.2em 0 !important;
+text-transform:uppercase;
+}
+
+
+#upcoming-exam-expanded {
+text-align:left;
+}
+#upcoming-exam-expanded ul {
+list-style:none;
+margin:0;
+padding:0 0 0 20px;
+}
+ul.style3 li {
+line-height: 160%;
+padding: 0px 0px 25px 0px;
+}
+ul.style3 span, ul.style3 div.examDate {
+display: inline-block;
+float: left;
+width: 60px;
+height: 38px;
+margin-right: 20px;
+background: #66141E;
+border-radius: 5px;
+line-height: 38px;
+letter-spacing: -1px;
+text-align: center;
+text-decoration: none;
+font-family: 'Maven Pro', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: white;
+}
+.examSchedule {
+display:inline-block;
+}
+ul.style3 li.first a span {
+background: #931C24;
+}
+ul.style3 li.last a span {
+background: #CB2027;
+}
+.proctored-exam-region {
+  font-size:10px;
+  display:inline-block;
+  width:220px;
+  margin-left:80px;
+}
+li .event-categories {
+  list-style:none;
+  margin:0;
+  padding:0;
+  clear:both;
+  display:inline-block;
+}
+li .event-categories li {
+  display:inline-block;
+  font-weight:bold;
+  margin:0;
+  padding:0 10px 0 0;
+}
+
+#myaplus-login label {
+display:inline-block;
+float:left;
+text-align:right;
+width:18%;
+padding: 18px 5px 0 0;
+line-height: 1.4;
+font-size: 14px;
+}
+#myaplus-login input.ui-input-text {
+background-image: none;
+padding: .4em;
+margin: 0.5em 0;
+line-height: 1.4;
+font-size: 16px;
+display: inline-block;
+width: 75%;
+outline: 0;
+}
+#myaplus-login .ui-btn {
+width:45%;
+display:inline-block;
+}
+
+
+/* social media region of footer */
+#text-4 .widget-title {
+display:none;
+visibility:hidden;
+}
+#follow {
+text-align:center;
+display:inline-block;
+width:100%;
+height:60px;
+}
+#follow a {
+display:inline-block;
+text-decoration:none;
+color: #fff;
+}
+#follow a.facebook {
+background:url('images-aplus/social-sprite.png') no-repeat 0px 0px;
+width: 25px;
+height: 40px;
+font-size:0px !important;
+padding-right:10px;
+}
+#follow a.twitter {
+background:url('images-aplus/social-sprite.png') no-repeat -35px 0px;
+width: 45px;
+height: 40px;
+font-size:0px !important;
+padding-right:10px;
+}
+#follow a.podcast_rss {
+background:url('images-aplus/podcast_rss_icon.png') no-repeat top left;
+width: 48px;
+height: 40px;
+font-size:0px !important;
+}
+
+#copyright-text {
+  font-size:11px;
+}
+#copyright-text a {
+  text-decoration:none;
+  color:#ffffff;
+  font-weight:normal;
+}
+#copyright-text a:hover {
+  text-decoration:underline;
+}
+
+#footer-badge {
+position:absolute;
+bottom:10px;
+right:0px;
+}
+
+#footer-badge img {
+width:150px;
+}
+
+
+.entry-content, .entry-content p, .entry-content blockquote, .entry-content ul, .entry-content ol {
+  line-height:180%;
+}
+.entry-content ul.bulleted li{
+  list-style:disc;
+  background:none !important;
+  padding-left:0;
+}
+
+.entry-content li ul li {
+  padding-top:12px;
+  padding-bottom:0px;
+}
+.entry-content li ul li {
+padding-left: 15px;
+padding-bottom: 0px;
+background: url(../images/list-icon-bg.png) no-repeat left 19px;
+}
+.entry-content a, .entry-content ul a {
+  color: #cb2027;
+  text-decoration:none;
+  border-bottom: 1px dotted #cb2027;
+}
+.entry-content a:hover, .entry-content ul a:hover {
+  color: #5b5b5b;
+  text-decoration:none;
+  border-bottom: 1px solid #5b5b5b;
+}
+.entry-content .reverse {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  border: double white;
+  text-decoration: underline;
+  padding: 10px;
+  background: #CB2027;
+  display:block;
+}
+.entry-content .reverse a {
+  color: #ffffff;
+  text-decoration:none;
+  border-bottom: 1px dotted #ffffff;
+}
+.entry-content .reverse a {
+  color: #5b5b5b;
+  text-decoration:none;
+  border-bottom: 1px dotted #5b5b5b;
+}
+.entry-content .emphasis {
+  color: #CB2027;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* top ten reasons page */
+
+.entry-content #countdown ul, .entry-content #countdown ul ul {
+margin:0;
+padding-left:0;
+}
+.entry-content #countdown ul ul li {
+list-style-type: none;
+background:none;
+padding-bottom:0;
+}
+.entry-content #countdown ul ul li h6 {
+display:inline-block;
+color:#ffffff;
+background:#cb2027;
+font-size:18px;
+letter-spacing:0.1em;
+width:40px;
+text-align:center;
+padding:10px 0px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+margin:0;
+
+}
+.entry-content #countdown ul ul li h2 {
+padding-left:3px;
+display:inline-block;
+font-size:18px;
+font-weight:bold;
+width:auto;
+margin-bottom:0;
+}
+.entry-content #countdown blockquote {
+clear:both;
+width:100%;
+padding-left:10px;
+padding-bottom:5px;
+width:auto;
+font-size:16px;
+line-height:180%;
+margin-top:0;
+margin-bottom:5px;
+}
+.entry-content #countdown blockquote p{
+margin-top:0;
+margin-bottom:0;
+}
+.entry-content #countdown blockquote ul {
+  margin: 0 0 0 15px;
+}
+.entry-content #countdown blockquote ul li {
+  background:none;
+  list-style-type:disc;
+  padding-left:10px;
+}
+.entry-content #countdown .reverse {
+width:70%;
+margin:auto;
+text-align:left;
+font-size:16px;
+padding:10px 0;
+color: #ffffff;
+background: #cb2027;
+text-align:center;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+-moz-box-shadow:    3px 3px 2px 0px #ccc;
+-webkit-box-shadow: 3px 3px 2px 0px #ccc;
+box-shadow:         3px 3px 2px 0px #ccc;
+}
+
+
+
+/* resources */
+.entry-content blockquote ul  {
+  margin: 0 0 0 15px;
+}
+.entry-content blockquote ul li h3{
+  padding-left:0px;
+  font-size:18px;
+  line-height:22px;
+  color:#66141e;
+  text-transform: none;
+  font-weight:bold;
+  position: relative;
+  top: -3px;
+}
+
+
+/* service pages- enumerated programs */
+.programs {
+  padding-left:20px;
+}
+.programs ul {
+  padding-top:10px;
+}
+ul li h6, .programs ul li h6 {
+  font-size: 15px;
+  letter-spacing:0.1em;
+  font-style: italic;
+  margin: 0px;
+  line-height: 100%;
+  color: #cb2027;
+}
+.programs ul li ul {
+  padding-left: 20px;
+  line-height: 180%;
+}
+
+
+/* testimonials */
+.testimonial.hentry {
+  padding-bottom:20px !important;
+  border-bottom:1px dotted #ccc !important;
+  margin-bottom:20px !important;
+  float:left;
+}
+
+.testimonial blockquote {
+  font-family: 'Maven Pro', sans-serif;
+  float:left;
+}
+.testimonial blockquote img{
+float:left;
+padding:0 20px 20px 0;
+}
+.testimonial-content {
+  float:left;
+}
+
+.testimonyInfo {
+  float:right;
+  clear:both;
+  line-height:1.2em;
+}
+
+.testimonyBy {
+  font-style:italic;
+  clear:both;
+  font-weight:700;
+}
+.testimonyBy div {
+  padding:0 0 0 5px;
+  clear:both;
+  margin:0;
+}
+.score-increase-callout {
+  clear:both;
+  font-weight:900;
+  font-style:normal;
+}
+
+/* tutor profiles */
+.tutor-profile.hentry {
+  width:100%;
+  clear:both;
+  padding-bottom:20px !important;
+  border-bottom:1px dotted #ccc !important;
+  margin-bottom:20px !important;
+  float:left;
+}
+.tutor-profile-wrapper {
+  float:left;
+  width:100%;
+  clear:both;
+}
+.tutor-profile .left-column {
+  float:left;
+  display:inline-block;
+  width:180px;
+  padding-right:20px;
+}
+.tutor-profile .left-column img{
+  padding:0;
+  margin-bottom:10px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.tutor-profile .wpcf-field-tutor-why, .tutor-profile .quoteBy {
+  padding: 3px 7px;
+  font-style:italic;
+  font-family: 'Maven Pro', sans-serif;
+  background: #5F6062;
+  color: #ffffff;
+}
+.tutor-profile .wpcf-field-tutor-why {
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.tutor-profile .quoteBy {
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.tutor-profile .wpcf-field-tutor-why p {
+  margin:0;
+}
+.tutor-profile .quoteBy {
+  text-align:right;
+}
+.tutor-profile .right-column {
+  float:left;
+  display:inline-block;
+  width:400px;
+}
+.entry-content h3.tutorName {
+  color: #931c24;
+  font-size:24px;
+  font-weight:bold;
+  line-height:100%;
+}
+.entry-content h4 {
+  margin-bottom:0;
+  margin-top:10px;
+}
+
+/* consultant listings */
+.consultant.hentry {
+  width:100%;
+  clear:both;
+  padding-bottom:20px !important;
+  border-bottom:1px dotted #ccc !important;
+  margin-bottom:20px !important;
+  float:left;
+}
+.consultant-listing {
+  float:left;
+  width:100%;
+  clear:both;
+}
+
+.consultant-listing h3.consultant-name {
+  font-size:16px !important;
+  font-weight:bold;
+}
+.consultant-listing .consultantTitleGroup {
+  font-size:14px !important;
+  font-weight:bold;
+}
+.consultant-listing address {
+  padding-top:5px;
+  padding-left:20px;
+  clear:both;
+}
+.consultantFieldTitle {
+  text-transform:uppercase;
+  font-weight:bold;
+  width:55px;
+  display:inline-block;
+  margin-right:5px;
+  clear:left;
+}
+.contactInfoRow {
+  clear:both;
+  padding-left:20px;
+}
+.3rdPartyWebsite a, .3rdPartyWebsite a:visited, .3rdPartyWebsite a:active {
+}
+.3rdPartyWebsite a:hover {
+}
+
+
+
+
+@media all and (max-width: 320px) {
+
+  #branding {
+    width:320px;
+  }
+
+  /* expanding/collapsing menu */
+  #access {
+  width:320px;
+  margin:0 auto;
+  padding:0;
+  }
+  #access .button-row-wrapper {
+  width:100%;
+  clear:both;
+  }
+  #access .ui-btn {
+  width:48%;
+  display:inline-block;
+  margin: 0.2em 0 !important;
+  text-transform:uppercase;
+  }
+
+  #footer-badge {
+    position:absolute;
+    bottom:10px;
+    right:0px;
+  }
+
+}
+
+@media (min-width:321px) and (max-width: 479px) {
+
+  #branding {
+    min-width:320px;
+    width:100%;
+  }
+
+  /* expanding/collapsing menu */
+  #access {
+  width:320px;
+  margin:0 auto;
+  padding:0;
+  text-transform:uppercase;
+  }
+  #access .button-row-wrapper {
+  width:100%;
+  clear:both;
+  }
+  #access .ui-btn {
+  width:48%;
+  display:inline-block;
+  margin: 0.2em 0 !important;
+  }
+
+  #footer-badge {
+  position:absolute;
+  bottom:10px;
+  right:15px;
+  }
+
+
+}
+
+@media (min-width:480px) {
+  #branding {
+    min-width:320px;
+    width:100%;
+  }
+
+  /* expanding/collapsing menu */
+  #access {
+  width:480px;
+  margin:0 auto;
+  padding:0;
+  clear:both;
+  display:inline-block;
+  }
+  #access .button-row-wrapper {
+  width:240px;
+  clear:none;
+  display:inline-block;
+  float:left;
+  }
+  #access .ui-btn {
+  width:48%;
+  display:inline-block;
+  margin: 0.2em 0 !important;
+  text-transform:uppercase;
+  }
+
+  #footer-badge {
+  position:absolute;
+  bottom:10px;
+  right:25px;
+  }
+  .featured-testimonial-caption div.center-text {
+    margin-top:15px;
+  }
+
+
+}
+
+
+.blog #container {
+  padding: 10px 30px;
+  max-width: 95%;
+}
+
+.blog #container .post .entry-content .wp-caption {
+  width: 100%;
+}
+
+.blog #container .post .entry-content .wp-caption a img {
+width: 95% !important;
+margin: auto;
+max-width: 280px;
+height: auto;
+}
