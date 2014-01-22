@@ -8,6 +8,8 @@ wp-includes/
 
 sitemap.xml
 sitemap.xml.gz
+*.tar.gz
+*.zip
 
 index.php
 license.txt

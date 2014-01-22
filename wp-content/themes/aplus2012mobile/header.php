@@ -30,7 +30,7 @@
 
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 )
-		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
+		echo ' | ' . sprintf( __( 'Page %s', 'aplus2012mobile' ), max( $paged, $page ) );
 
 	?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
