@@ -38,6 +38,9 @@ get_header(); ?>
 
         <?php
           endwhile;
+          else : ?>
+            <p>Sorry, the consultant directory is temporarily unavailable.  Please try again later.</p>
+          <?
           endif;
         ?>
 			</div><!-- #content -->

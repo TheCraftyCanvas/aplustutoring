@@ -3,21 +3,22 @@
  * The template for displaying consultant content
  */
 ?>
-
 <?php
   $url = $_SERVER["REQUEST_URI"];
 
   //consultant type field
-  if(strpos($url,"admissions") !== false)
+  if(strpos($url,"college-admissions-consultants") !== false) {
     $consultantType = "College Admissions Consultants"; //1
-  elseif(strpos($url,"psychologists") !== false)
+    $consultantTypeID = 1;
+  } elseif(strpos($url,"educational-psychologists-therapists") !== false) {
     $consultantType = "Educational Psychologists"; //2
-  else
+    $consultantTypeID = 2;
+  } else {
     $consultantType = "Specialized Consultants"; //3
-
+    $consultantTypeID = 3;
+  }
   $consultantDBtype = ltrim(rtrim(types_render_field("consultant-type", array('output' => 'raw'))));
-  if( $consultantDBtype == $consultantType) :
-?>
+  if( $consultantDBtype == $consultantTypeID) : ?>
 <?php $consultantName = types_render_field("consultant-first", array('output' => 'raw')) . " " . types_render_field("consultant-last", array('output' => 'raw')); ?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -68,5 +69,4 @@ echo '<div class="contactInfoRow"><span class="3rdPartyWebsite"><a href="http://
     </div><!-- .entry-content -->
 	</article><!-- #post-<?php the_ID(); ?> -->
 
-<?php endif;
-?>
+<?php endif; ?>

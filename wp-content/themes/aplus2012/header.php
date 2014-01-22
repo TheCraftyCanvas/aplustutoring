@@ -99,7 +99,7 @@
 			</div><!--/#logo-->
 			</hgroup>
 		</div><!--/#header-->
-		<div id="one-to-one-instruction-ribbon"></div>
+		<h2 id="one-to-one-instruction-ribbon" style="font-size:0;">Experts in One-to-one Instruction</h2>
 	</header><!-- #branding -->
 
 

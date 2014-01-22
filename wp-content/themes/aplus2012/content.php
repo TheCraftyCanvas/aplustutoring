@@ -15,7 +15,7 @@
         <div class="responses"><?php comments_popup_link(__('0 RESPONSES'), __('1 RESPONSE'), __('% RESPONSES')); ?> <img style="vertical-align:-5px;" alt="comments" src="<?php bloginfo('template_directory'); ?>/images-aplus/comment.gif" height="16" width="16" /> </div>	<!-- end responses -->
         <b><?php echo strtoupper(get_the_time('F jS, Y')); ?><br />
         By <?php echo strtoupper(get_the_author()); ?></b>
-      </div><!-- end postmetadata --> 
+      </div><!-- end postmetadata -->
         <?php if ( is_sticky() ) : ?>
           <hgroup>
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
@@ -70,6 +70,8 @@
 				$show_sep = true; ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
+
+			<div class="rssfeed" style="width:100%;text-align:right;padding-bottom:30px"><a style="border:none;text-decoration:none;color: #555;" href="http://feeds.feedburner.com/APlus-Educational-News">Subscribe to Success Tips & News!&nbsp;&nbsp;<img  style="border:none;text-decoration:none;" src="/wp-includes/images/rss.png" alt="Subscribe to Success Tips & News!"/></a></div>
 			<?php endif; // End if 'post' == get_post_type() ?>
 
 			<?php if ( comments_open() ) : ?>

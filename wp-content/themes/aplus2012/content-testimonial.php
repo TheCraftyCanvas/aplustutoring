@@ -34,11 +34,31 @@
         <?php echo(types_render_field("testimonial-score-increase", array('output' => 'raw' ) ) ); ?>
         Point Increase on the
         <?php
-          $testType = types_render_field("testimonial-service-type", array('output' => 'raw' ) );
+          $testType = types_render_field("testimonial-service-type", array( ) );
             if($testType <> "SAT II Subject Test Prep") {
               $testType = str_replace(" Test Prep","",$testType);
             } else {
               $testType = str_replace(" Prep","",$testType);
+            }
+            switch($testType) {
+              case 1:
+                $testType = "SAT";
+                break;
+              case 2:
+                $testType = "ACT";
+                break;
+              case 5:
+                $testType = "SAT II Subject Test";
+                break;
+              case 6:
+                $testType = "SSAT";
+                break;
+              case 7:
+                $testType = "ISEE";
+                break;
+              case 8:
+                $testType = "AP Exam";
+                break;
             }
           echo $testType;
         ?>

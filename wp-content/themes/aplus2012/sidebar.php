@@ -12,7 +12,7 @@ if ( 'content' != $current_layout ) :
 		  <?php if (is_page_template('page-testimonials.php') ) {
         global $post;
         while ( have_posts() ) : the_post();
-        get_template_part( 'content', 'single' );
+        echo(types_render_field( "school-listing", array('raw' => 'false') ));
         endwhile;
 			}
 			?>
